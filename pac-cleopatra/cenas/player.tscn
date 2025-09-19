@@ -1,0 +1,65 @@
+[gd_scene load_steps=10 format=3 uid="uid://jmfvdtv1qw7p"]
+
+[ext_resource type="Script" uid="uid://cwjc4ieadq0av" path="res://scripts/Scripts-jogador/player.gd" id="1_4y2i1"]
+[ext_resource type="Texture2D" uid="uid://bxhdb0gxptnj6" path="res://assets/Personagem Principal/pulo/1- pulo.png" id="1_8v4ht"]
+[ext_resource type="Texture2D" uid="uid://c5pjl67nxctvf" path="res://assets/Personagem Principal/pulo/2- pulo.png" id="2_4y2i1"]
+[ext_resource type="Texture2D" uid="uid://i1fbxoulawbe" path="res://assets/Personagem Principal/pulo/3- pulo.png" id="3_ogt8j"]
+[ext_resource type="Texture2D" uid="uid://byjobcqumdhoo" path="res://assets/Personagem Principal/0-parado.png" id="4_rijvs"]
+[ext_resource type="Texture2D" uid="uid://csbhac2abe7od" path="res://assets/Personagem Principal/1- andando.png" id="5_mp0j6"]
+[ext_resource type="Texture2D" uid="uid://brhm3co1cq2yh" path="res://assets/Personagem Principal/2- andando.png" id="6_8bq56"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tckef"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8v4ht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_4y2i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ogt8j")
+}],
+"loop": true,
+"name": &"Jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_rijvs")
+}],
+"loop": true,
+"name": &"Standing",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_rijvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mp0j6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8bq56")
+}],
+"loop": true,
+"name": &"Walking",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ym2kn"]
+radius = 15.0
+height = 56.0
+
+[node name="Player" type="Area2D" groups=["Player"]]
+script = ExtResource("1_4y2i1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.03, 0.03)
+sprite_frames = SubResource("SpriteFrames_tckef")
+animation = &"Walking"
+frame_progress = 0.714366
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_ym2kn")

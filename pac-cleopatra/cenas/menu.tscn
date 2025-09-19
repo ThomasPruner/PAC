@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://cndrf37th8e67"]
+
+[ext_resource type="Texture2D" uid="uid://clit2ooeymif1" path="res://assets/Menu Inicial/Menu1.png" id="1_64url"]
+[ext_resource type="Texture2D" uid="uid://d0f02bnngdgxl" path="res://assets/Menu Inicial/Botao_Comecar.png" id="2_hsu4v"]
+[ext_resource type="Texture2D" uid="uid://c85rhk6e5gnyt" path="res://assets/Menu Inicial/Botao_Instrucoes.png" id="3_mmoso"]
+[ext_resource type="Script" uid="uid://b5h1gt4u31js0" path="res://scripts/scripts-botoes/botao_instrucoes.gd" id="4_mmoso"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1236.0
+offset_bottom = 723.0
+texture = ExtResource("1_64url")
+expand_mode = 2
+
+[node name="botao-comecar" type="TextureButton" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.032
+anchor_bottom = 0.055
+offset_left = 484.0
+offset_top = 428.0
+offset_right = 746.448
+offset_bottom = 474.235
+texture_normal = ExtResource("2_hsu4v")
+stretch_mode = 3
+
+[node name="botao-instrucoes" type="TextureButton" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.08
+anchor_bottom = 0.216
+offset_left = 478.0
+offset_top = 565.0
+offset_right = 690.12
+offset_bottom = 498.832
+texture_normal = ExtResource("3_mmoso")
+stretch_mode = 3
+script = ExtResource("4_mmoso")

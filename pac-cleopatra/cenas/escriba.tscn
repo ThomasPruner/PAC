@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckg4xg03a3cwn"]
+
+[ext_resource type="Script" uid="uid://b2xvnf3fsv2lb" path="res://scripts/Scripts-NPC/escriba.gd" id="1_dr87b"]
+[ext_resource type="Texture2D" uid="uid://co1ocsd3q2lms" path="res://assets/escriba/escriba.png" id="1_ro5rv"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dr87b"]
+radius = 46.0
+height = 120.0
+
+[node name="Escriba" type="Area2D"]
+script = ExtResource("1_dr87b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.03, 0.03)
+texture = ExtResource("1_ro5rv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_dr87b")
+
+[node name="InteracaoLabel" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -109.0
+offset_top = -68.0
+offset_right = 109.0
+offset_bottom = -45.0
+grow_horizontal = 2
+text = "Pressione \"E\" para interagir!"
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

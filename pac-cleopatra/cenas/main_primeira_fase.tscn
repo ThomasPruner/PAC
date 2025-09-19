@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cohg5hkkxqb2b"]
+
+[ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="1_18g0h"]
+[ext_resource type="PackedScene" uid="uid://ckg4xg03a3cwn" path="res://cenas/escriba.tscn" id="2_4q77l"]
+
+[node name="Main Primeira Fase" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_18g0h")]
+
+[node name="Escriba" parent="." instance=ExtResource("2_4q77l")]
+position = Vector2(334, 169)

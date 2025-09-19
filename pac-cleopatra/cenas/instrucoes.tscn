@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpvs321av0jyt"]
+
+[ext_resource type="Texture2D" uid="uid://bhot8tvl48m5j" path="res://assets/Menu Inicial/tela instruções.png" id="1_fac5t"]
+[ext_resource type="Script" uid="uid://mqvc2728n8c4" path="res://scripts/scripts-botoes/voltar-instrucoes.gd" id="2_vwghk"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -155.0
+offset_top = -19.0
+offset_right = 1394.0
+offset_bottom = 738.0
+texture = ExtResource("1_fac5t")
+expand_mode = 1
+
+[node name="TextureButton" type="TextureButton" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 360.0
+offset_top = 44.0
+offset_right = 570.0
+offset_bottom = 95.0
+script = ExtResource("2_vwghk")
