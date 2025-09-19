@@ -1,0 +1,6 @@
+res://cenas/menu.tscn
+res://cenas/main_primeira_fase.tscn
+res://cenas/escribaDialogo.tscn
+res://scripts/Scripts-NPC/escriba_dialogo.gd
+res://cenas/escriba.tscn
+res://scripts/Scripts-NPC/escriba.gd
