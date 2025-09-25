@@ -15,28 +15,44 @@ func _on_area_entered(area: Node) -> void:
 	print("area_entered por:", area.name, " | is_in_group('Player'):", area.is_in_group("Player"))
 	if area.is_in_group("Player"):
 		player_in_area = true
-
-		# Tenta garantir que o texto exista (Label ou Label2D)
-		if interacao_label is Label:
-			interacao_label.text = "Pressione 'E' para interagir!"
-
-		# Mostra a label de várias formas
-		interacao_label.visible = true
-		if interacao_label.has_method("show"):
-			interacao_label.show()
-
-		# Se o pai estiver escondido, force ele a mostrar
-		var p = interacao_label.get_parent()
-		if p:
-			p.visible = true
+		show_interaction_label()
 
 func _on_area_exited(area: Node) -> void:
 	if area.is_in_group("Player"):
 		player_in_area = false
-		if interacao_label:
-			interacao_label.visible = false
-			if interacao_label.has_method("hide"):
-				interacao_label.hide()
+		hide_interaction_label()
+
+func _on_body_entered(body: Node) -> void:
+	print("body_entered por:", body.name, " | is_in_group('Player'):", body.is_in_group("Player"))
+	if body.is_in_group("Player"):
+		player_in_area = true
+		show_interaction_label()
+
+func _on_body_exited(body: Node) -> void:
+	if body.is_in_group("Player"):
+		player_in_area = false
+		hide_interaction_label()
+
+func show_interaction_label():
+	# Tenta garantir que o texto exista (Label ou Label2D)
+	if interacao_label is Label:
+		interacao_label.text = "Pressione 'E' para interagir!"
+
+	# Mostra a label de várias formas
+	interacao_label.visible = true
+	if interacao_label.has_method("show"):
+		interacao_label.show()
+
+	# Se o pai estiver escondido, force ele a mostrar
+	var p = interacao_label.get_parent()
+	if p:
+		p.visible = true
+
+func hide_interaction_label():
+	if interacao_label:
+		interacao_label.visible = false
+		if interacao_label.has_method("hide"):
+			interacao_label.hide()
 
 func _process(_delta: float) -> void:
 	if player_in_area and Input.is_action_just_pressed("interact"):

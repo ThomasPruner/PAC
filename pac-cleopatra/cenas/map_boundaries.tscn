@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxmphmdfbveft"]
+
+[ext_resource type="Script" uid="uid://tqydf8r5t33p" path="res://scripts/map_boundaries.gd" id="1_boundaries"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(4100, 50)
+
+[node name="MapBoundaries" type="Node2D"]
+
+[node name="TopWall" type="StaticBody2D" parent="."]
+script = ExtResource("1_boundaries")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopWall"]
+position = Vector2(2000, -25)
+shape = SubResource("RectangleShape2D_1")
+
+[node name="BottomWall" type="StaticBody2D" parent="."]
+script = ExtResource("1_boundaries")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BottomWall"]
+position = Vector2(2000, 4025)
+shape = SubResource("RectangleShape2D_1")
+
+[node name="LeftWall" type="StaticBody2D" parent="."]
+script = ExtResource("1_boundaries")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall"]
+position = Vector2(-25, 2000)
+rotation = 4.71239
+shape = SubResource("RectangleShape2D_1")
+
+[node name="RightWall" type="StaticBody2D" parent="."]
+script = ExtResource("1_boundaries")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall"]
+position = Vector2(4025, 2000)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_1")

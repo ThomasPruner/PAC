@@ -2,4 +2,8 @@ res://cenas/menu.tscn
 res://cenas/main_primeira_fase.tscn
 res://cenas/escribaDialogo.tscn
 res://cenas/escriba.tscn
-res://scripts/Scripts-NPC/escriba_dialogo.gd
+res://scripts/Scripts-jogador/player.gd
+res://cenas/player.tscn
+res://cenas/map_boundaries.tscn
+res://cenas/map_obstacles.tscn
+res://scripts/Scripts-NPC/escriba.gd
