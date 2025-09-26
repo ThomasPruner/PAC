@@ -7,3 +7,6 @@ res://cenas/player.tscn
 res://cenas/map_boundaries.tscn
 res://cenas/map_obstacles.tscn
 res://scripts/Scripts-NPC/escriba.gd
+res://scripts/map_boundaries.gd
+res://cenas/comerciante_alimentos.tscn
+res://scripts/Scripts-NPC/comerciante_alimentos.gd

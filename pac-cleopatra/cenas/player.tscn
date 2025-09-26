@@ -44,7 +44,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Walking",
-"speed": 5.0
+"speed": 4.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ym2kn"]
@@ -58,7 +58,7 @@ script = ExtResource("1_4y2i1")
 scale = Vector2(0.07, 0.07)
 sprite_frames = SubResource("SpriteFrames_tckef")
 animation = &"Walking"
-frame_progress = 0.714366
+frame_progress = 0.618063
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)

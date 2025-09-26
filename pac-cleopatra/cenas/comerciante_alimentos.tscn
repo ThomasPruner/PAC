@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbw5mmomx30lw"]
+
+[ext_resource type="Script" uid="uid://dhr58gsad6tfy" path="res://scripts/Scripts-NPC/comerciante_alimentos.gd" id="1_2hhon"]
+[ext_resource type="Texture2D" uid="uid://dv4rbimp8qasd" path="res://assets/comerciante_alimentos/Comerciante de Alimentos.png" id="1_n7fjf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gdhcb"]
+radius = 159.0
+height = 324.0
+
+[node name="comerciante_alimentos" type="Area2D"]
+script = ExtResource("1_2hhon")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.35, 0.35)
+texture = ExtResource("1_n7fjf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_gdhcb")
+
+[node name="InteracaoLabel" type="Label" parent="."]
+offset_left = -108.0
+offset_top = -131.0
+offset_right = 110.0
+offset_bottom = -108.0
+text = "Pressione \"E\" para interagir!"
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
