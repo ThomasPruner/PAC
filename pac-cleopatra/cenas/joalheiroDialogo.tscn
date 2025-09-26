@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://dh18b3tgc0kre"]
+
+[ext_resource type="Script" uid="uid://cemsfmj6xhsi8" path="res://scripts/Scripts-NPC/joalheiro_dialogo.gd" id="1_lt5xl"]
+[ext_resource type="Texture2D" uid="uid://cxgx7k38ci6bf" path="res://assets/comerciante_joias/cenaJoalheiro.png" id="2_bqxgi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bqxgi"]
+
+[node name="joalheiro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lt5xl")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_bqxgi")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 209.0
+offset_top = 30.0
+offset_right = 1136.0
+offset_bottom = 104.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_bqxgi")
+text = "Para receber uma parte do mapa, preciso saber se você conhece a terra dos faraós. Qual é o maior rio do Egito?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 528.0
+offset_right = 1084.0
+offset_bottom = 611.0
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button4" to="." method="_on_button_4_pressed"]
