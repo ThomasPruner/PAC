@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://ckwa3bypinuh6"]
+
+[ext_resource type="Script" uid="uid://yjwdh5rbjhx7" path="res://scripts/Scripts-NPC/joalheiro.gd" id="1_bipi8"]
+[ext_resource type="Texture2D" uid="uid://b4ex16xrnqec" path="res://assets/comerciante_joias/joalheiro.png" id="1_jaibs"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bipi8"]
+radius = 162.0
+height = 324.0
+
+[node name="joalheiro" type="Area2D"]
+script = ExtResource("1_bipi8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("1_jaibs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_bipi8")
+
+[node name="InteracaoLabel" type="Label" parent="."]
+offset_left = -109.0
+offset_top = -153.0
+offset_right = 109.0
+offset_bottom = -130.0
+text = "Pressione \"E\" para interagir!"
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

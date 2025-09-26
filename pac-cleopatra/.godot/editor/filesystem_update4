@@ -10,3 +10,5 @@ res://scripts/Scripts-NPC/escriba.gd
 res://scripts/map_boundaries.gd
 res://cenas/comerciante_alimentos.tscn
 res://scripts/Scripts-NPC/comerciante_alimentos.gd
+res://cenas/joalheiro.tscn
+res://scripts/Scripts-NPC/joalheiro.gd
