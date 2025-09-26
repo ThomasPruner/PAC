@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1758751589
 icon.svg::CompressedTexture2D/CompressedTexture2D::2509371177546095097::1758325328::1758751561::1::::<><><>0<>0<>e1e44cc5bb78078ab33c9cf7f43b63d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1758843396
-::res://assets/comerciante_alimentos/::1758843401
-Comerciante de Alimentos.png::CompressedTexture2D::8694129136467365591::1758843401::1758843505::1::::<><><>0<>0<>9de1cbad8283803b9e900223ba9513b4<>res://.godot/imported/Comerciante de Alimentos.png-ea8d8fd3f42e3d8bb24e86de8d3c97ce.ctex::
+::res://assets/::1758844056
+::res://assets/comerciante_alimentos/::1758844534
+Comerciante de Alimentos.png::CompressedTexture2D::8694129136467365591::1758844534::1758844537::1::::<><><>0<>0<>9de1cbad8283803b9e900223ba9513b4<>res://.godot/imported/Comerciante de Alimentos.png-ea8d8fd3f42e3d8bb24e86de8d3c97ce.ctex::
 ::res://assets/escriba/::1758751563
 cenaEscriba.png::CompressedTexture2D/CompressedTexture2D::3435289433554625127::1758751549::1758751562::1::::<><><>0<>0<>e4d0992a40a58c0612450d474781975e<>res://.godot/imported/cenaEscriba.png-1e195a2f357f90c0a4f07d39348a50f3.ctex::
 escriba.png::CompressedTexture2D/CompressedTexture2D::5810013560760113390::1758325328::1758751563::1::::<><><>0<>0<>715519258baf4fcf1dc7e0628488bbf3<>res://.godot/imported/escriba.png-00521b91e74ad20814eb0afbc33424eb.ctex::
@@ -21,24 +21,25 @@ base.jpg::CompressedTexture2D/CompressedTexture2D::3920603100495685966::17583253
 1- pulo.png::CompressedTexture2D/CompressedTexture2D::4015399991836870637::1758325328::1758751563::1::::<><><>0<>0<>ded8f0124e59c15b1308f29efbcaefbf<>res://.godot/imported/1- pulo.png-bffa98e8e14290e3f08ab7277fe20f25.ctex::
 2- pulo.png::CompressedTexture2D/CompressedTexture2D::6910040117785015611::1758325328::1758751562::1::::<><><>0<>0<>8daa89d6f8ffa3515daee9adc67ce41f<>res://.godot/imported/2- pulo.png-f752437cf279f11616175b3af6a4af70.ctex::
 3- pulo.png::CompressedTexture2D/CompressedTexture2D::615491172055299246::1758325328::1758751563::1::::<><><>0<>0<>72d61f0cd8b7dcc4c73558dece3fe4f6<>res://.godot/imported/3- pulo.png-12a199b40f527260120446beb4c44c9a.ctex::
-::res://assets/Primeira Fase Mapa/::1758760545
-Mapa4.png::CompressedTexture2D::8528097562678578231::1758760511::1758760545::1::::<><><>0<>0<>02c9473147b3b79434c629687baae865<>res://.godot/imported/Mapa4.png-b51b23884c9f0292f0ee4892dfa53c7a.ctex::
-::res://cenas/::1758843153
-escriba.tscn::PackedScene::5488918291374431393::1758843153::0::1::::<><><>0<>0<><>::uid://b2xvnf3fsv2lb::::res://scripts/Scripts-NPC/escriba.gd<>uid://co1ocsd3q2lms::::res://assets/escriba/escriba.png
-escribaDialogo.tscn::PackedScene::3882737334262203704::1758843153::0::1::::<><><>0<>0<><>::uid://c7d6hmko5aq8g::::res://scripts/Scripts-NPC/escriba_dialogo.gd<>uid://bo7cykvb48xn0::::res://assets/escriba/cenaEscriba.png
+::res://assets/Primeira Fase Mapa/::1758844090
+Mapa4.png::CompressedTexture2D::8528097562678578231::1758844056::1758844090::1::::<><><>0<>0<>02c9473147b3b79434c629687baae865<>res://.godot/imported/Mapa4.png-b51b23884c9f0292f0ee4892dfa53c7a.ctex::
+::res://cenas/::1758844411
+escriba.tscn::PackedScene::5488918291374431393::1758844307::0::1::::<><><>0<>0<><>::uid://b2xvnf3fsv2lb::::res://scripts/Scripts-NPC/escriba.gd<>uid://co1ocsd3q2lms::::res://assets/escriba/escriba.png
+escribaDialogo.tscn::PackedScene::3882737334262203704::1758844307::0::1::::<><><>0<>0<><>::uid://c7d6hmko5aq8g::::res://scripts/Scripts-NPC/escriba_dialogo.gd<>uid://bo7cykvb48xn0::::res://assets/escriba/cenaEscriba.png
 instrucoes.tscn::PackedScene/PackedScene::8256591004908603263::1758325328::0::1::::<><><>0<>0<><>::uid://bhot8tvl48m5j::::res://assets/Menu Inicial/tela instruções.png<>uid://mqvc2728n8c4::::res://scripts/scripts-botoes/voltar-instrucoes.gd
-main_primeira_fase.tscn::PackedScene::5770354081968035659::1758843153::0::1::::<><><>0<>0<><>::uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://ckg4xg03a3cwn::::res://cenas/escriba.tscn<>uid://dxmphmdfbveft::::res://cenas/map_boundaries.tscn<>uid://4cjrjxxn1lcq::::res://cenas/map_obstacles.tscn
-map_boundaries.tscn::PackedScene::8799301878395555173::1758843153::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
-map_obstacles.tscn::PackedScene::2040182541746414784::1758843153::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png
-menu.tscn::PackedScene::5692532106750832294::1758843153::0::1::::<><><>0<>0<><>::uid://clit2ooeymif1::::res://assets/Menu Inicial/Menu1.png<>uid://d0f02bnngdgxl::::res://assets/Menu Inicial/Botao_Comecar.png<>uid://c85rhk6e5gnyt::::res://assets/Menu Inicial/Botao_Instrucoes.png<>uid://b5h1gt4u31js0::::res://scripts/scripts-botoes/botao_instrucoes.gd
-player.tscn::PackedScene::656813400337722279::1758843153::0::1::::<><><>0<>0<><>::uid://cwjc4ieadq0av::::res://scripts/Scripts-jogador/player.gd<>uid://bxhdb0gxptnj6::::res://assets/Personagem Principal/pulo/1- pulo.png<>uid://c5pjl67nxctvf::::res://assets/Personagem Principal/pulo/2- pulo.png<>uid://i1fbxoulawbe::::res://assets/Personagem Principal/pulo/3- pulo.png<>uid://byjobcqumdhoo::::res://assets/Personagem Principal/0-parado.png<>uid://csbhac2abe7od::::res://assets/Personagem Principal/1- andando.png<>uid://brhm3co1cq2yh::::res://assets/Personagem Principal/2- andando.png
-::res://scripts/::1758830903
-map_boundaries.gd::GDScript::1368080952804250383::1758830875::0::1::::<>StaticBody2D<><>0<>0<><>::
+main_primeira_fase.tscn::PackedScene::5770354081968035659::1758844307::0::1::::<><><>0<>0<><>::uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://ckg4xg03a3cwn::::res://cenas/escriba.tscn<>uid://dxmphmdfbveft::::res://cenas/map_boundaries.tscn<>uid://4cjrjxxn1lcq::::res://cenas/map_obstacles.tscn
+map_boundaries.tscn::PackedScene::8799301878395555173::1758844307::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
+map_obstacles.tscn::PackedScene::2040182541746414784::1758844307::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png
+menu.tscn::PackedScene::5692532106750832294::1758844307::0::1::::<><><>0<>0<><>::uid://clit2ooeymif1::::res://assets/Menu Inicial/Menu1.png<>uid://d0f02bnngdgxl::::res://assets/Menu Inicial/Botao_Comecar.png<>uid://c85rhk6e5gnyt::::res://assets/Menu Inicial/Botao_Instrucoes.png<>uid://b5h1gt4u31js0::::res://scripts/scripts-botoes/botao_instrucoes.gd
+player.tscn::PackedScene::656813400337722279::1758844359::0::1::::<><><>0<>0<><>::uid://cwjc4ieadq0av::::res://scripts/Scripts-jogador/player.gd<>uid://bxhdb0gxptnj6::::res://assets/Personagem Principal/pulo/1- pulo.png<>uid://c5pjl67nxctvf::::res://assets/Personagem Principal/pulo/2- pulo.png<>uid://i1fbxoulawbe::::res://assets/Personagem Principal/pulo/3- pulo.png<>uid://byjobcqumdhoo::::res://assets/Personagem Principal/0-parado.png<>uid://csbhac2abe7od::::res://assets/Personagem Principal/1- andando.png<>uid://brhm3co1cq2yh::::res://assets/Personagem Principal/2- andando.png
+comerciante_alimentos.tscn::PackedScene::2503869429714855360::1758844411::0::1::::<><><>0<>0<><>::
+::res://scripts/::1758844056
+map_boundaries.gd::GDScript::1368080952804250383::1758844056::0::1::::<>StaticBody2D<><>0<>0<><>::
 ::res://scripts/scripts-botoes/::1758325328
 botao_instrucoes.gd::GDScript/GDScript::4508127037377988081::1758325328::0::1::::<>TextureButton<><>0<>0<><>::
 voltar-instrucoes.gd::GDScript/GDScript::876576264992850493::1758325328::0::1::::<>TextureButton<><>0<>0<><>::
-::res://scripts/Scripts-jogador/::1758772162
-player.gd::GDScript::6335748975588913065::1758830843::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/Scripts-NPC/::1758751549
-escriba.gd::GDScript::4330298728555572171::1758834763::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/Scripts-jogador/::1758844284
+player.gd::GDScript::6335748975588913065::1758844284::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/Scripts-NPC/::1758844056
+escriba.gd::GDScript::4330298728555572171::1758844056::0::1::::<>Area2D<><>0<>0<><>::
 escriba_dialogo.gd::GDScript::7026972870802963912::1758751549::0::1::::<>Control<><>0<>0<><>::
