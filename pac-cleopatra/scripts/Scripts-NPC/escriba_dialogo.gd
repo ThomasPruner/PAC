@@ -17,6 +17,9 @@ func _on_button_2_pressed() -> void:
 
 func _on_button_3_pressed() -> void:
 	print("Acertou")
+	print (GlobalVars.acertouEscriba)
+	GlobalVars.acertouEscriba = true
+	print (GlobalVars.acertouEscriba)
 	
 func _on_button_4_pressed() -> void:
 	print("Errou")
