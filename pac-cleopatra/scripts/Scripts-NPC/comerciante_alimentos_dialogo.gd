@@ -4,7 +4,7 @@ func _ready():
 
 	$VBoxContainer/Button.text = "Rio Amazonas"
 	$VBoxContainer/Button2.text = "Rio Tietê"
-	$VBoxContainer/Button3.text = "Rio Pilo"
+	$VBoxContainer/Button3.text = "Rio Lilo e Stitch"
 	$VBoxContainer/Button4.text = "Rio Ísis"
 
 func _on_button_pressed() -> void:
@@ -17,6 +17,10 @@ func _on_button_2_pressed() -> void:
 
 func _on_button_3_pressed() -> void:
 	print("Acertou")
+	print (GlobalVars.acertouAlimento)
+	GlobalVars.acertouAlimento = true
+	print (GlobalVars.acertouAlimento)
+	print (GlobalVars.acertouEscriba)
 	
 func _on_button_4_pressed() -> void:
 	print("Errou")
