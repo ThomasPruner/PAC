@@ -58,6 +58,6 @@ func _process(_delta: float) -> void:
 	if player_in_area and Input.is_action_just_pressed("interact"):
 		var packed := load(SCENE_PATH) as PackedScene
 		if packed:
-			get_tree().change_scene_to_file("res://cenas/escribaDialogo.tscn")
+			get_tree().change_scene_to_file("res://cenas/joalheiroDialogo.tscn")
 		else:
 			push_error("Cena não encontrada: " + SCENE_PATH)
