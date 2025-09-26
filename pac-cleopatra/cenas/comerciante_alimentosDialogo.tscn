@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bjq4t472njkn5"]
+[gd_scene load_steps=4 format=3 uid="uid://bjq4t472njkn5"]
 
 [ext_resource type="Script" uid="uid://b4h0xvajxrbjx" path="res://scripts/Scripts-NPC/comerciante_alimentos_dialogo.gd" id="1_pd88r"]
+[ext_resource type="Texture2D" uid="uid://qdlg4xtoq0hf" path="res://assets/comerciante_alimentos/cenaAlimentos.png" id="2_gj7et"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pd88r"]
 
@@ -15,8 +16,10 @@ script = ExtResource("1_pd88r")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1536.0
+offset_bottom = 1024.0
+scale = Vector2(0.9, 0.9)
+texture = ExtResource("2_gj7et")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
