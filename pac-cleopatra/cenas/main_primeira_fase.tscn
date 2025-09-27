@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://cohg5hkkxqb2b"]
+[gd_scene load_steps=9 format=3 uid="uid://cohg5hkkxqb2b"]
 
 [ext_resource type="Texture2D" uid="uid://dtrcrye6uwoqp" path="res://assets/Primeira Fase Mapa/Mapa4.png" id="1_4q77l"]
 [ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="1_18g0h"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://4cjrjxxn1lcq" path="res://cenas/map_obstacles.tscn" id="4_obstacles"]
 [ext_resource type="PackedScene" uid="uid://bbw5mmomx30lw" path="res://cenas/comerciante_alimentos.tscn" id="4_vn7u8"]
 [ext_resource type="PackedScene" uid="uid://ckwa3bypinuh6" path="res://cenas/joalheiro.tscn" id="7_h4ced"]
+[ext_resource type="PackedScene" path="res://cenas/mission_ui.tscn" id="8_mission_ui"]
 
 [node name="Mapa" type="Node2D"]
 position = Vector2(626, 374)
@@ -17,6 +18,12 @@ texture = ExtResource("1_4q77l")
 
 [node name="Player" parent="." instance=ExtResource("1_18g0h")]
 position = Vector2(14, -14)
+
+[node name="UICanvas" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="MissionUI" parent="UICanvas" instance=ExtResource("8_mission_ui")]
+grow_horizontal = 0
 
 [node name="Escriba" parent="." instance=ExtResource("2_4q77l")]
 position = Vector2(2658, 1674)

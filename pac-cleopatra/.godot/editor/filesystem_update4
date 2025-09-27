@@ -11,3 +11,5 @@ res://cenas/comerciante_alimentosDialogo.tscn
 res://scripts/Scripts-NPC/comerciante_alimentos_dialogo.gd
 res://scripts/Scripts-NPC/escriba_dialogo.gd
 res://scripts/global_vars.gd
+res://cenas/Missoes.tscn
+res://scripts/mission_ui.gd
