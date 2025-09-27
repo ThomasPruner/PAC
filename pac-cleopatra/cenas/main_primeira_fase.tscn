@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cohg5hkkxqb2b"]
+[gd_scene load_steps=11 format=3 uid="uid://cohg5hkkxqb2b"]
 
 [ext_resource type="Texture2D" uid="uid://dtrcrye6uwoqp" path="res://assets/Primeira Fase Mapa/Mapa4.png" id="1_4q77l"]
 [ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="1_18g0h"]
@@ -8,7 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://4cjrjxxn1lcq" path="res://cenas/map_obstacles.tscn" id="4_obstacles"]
 [ext_resource type="PackedScene" uid="uid://bbw5mmomx30lw" path="res://cenas/comerciante_alimentos.tscn" id="4_vn7u8"]
 [ext_resource type="PackedScene" uid="uid://ckwa3bypinuh6" path="res://cenas/joalheiro.tscn" id="7_h4ced"]
-[ext_resource type="PackedScene" path="res://cenas/mission_ui.tscn" id="8_mission_ui"]
+[ext_resource type="PackedScene" uid="uid://b8k2x3m4n5p6q" path="res://cenas/mission_ui.tscn" id="8_mission_ui"]
+[ext_resource type="Script" uid="uid://djxqq32qy2qrn" path="res://scripts/pause_manager.gd" id="9_pause_manager"]
 
 [node name="Mapa" type="Node2D"]
 position = Vector2(626, 374)
@@ -27,6 +28,55 @@ layer = 10
 [node name="MissionUI" parent="UICanvas" instance=ExtResource("8_mission_ui")]
 grow_horizontal = 0
 
+[node name="PauseMenu" type="Control" parent="UICanvas"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="UICanvas/PauseMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.7)
+
+[node name="MenuContainer" type="VBoxContainer" parent="UICanvas/PauseMenu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -100.0
+offset_right = 150.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Title" type="Label" parent="UICanvas/PauseMenu/MenuContainer"]
+layout_mode = 2
+text = "JOGO PAUSADO"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="UICanvas/PauseMenu/MenuContainer"]
+layout_mode = 2
+
+[node name="ResumeButton" type="Button" parent="UICanvas/PauseMenu/MenuContainer"]
+layout_mode = 2
+text = "▶️ Continuar Jogo"
+
+[node name="QuitButton" type="Button" parent="UICanvas/PauseMenu/MenuContainer"]
+layout_mode = 2
+text = "🏠 Voltar ao Menu"
+
 [node name="Escriba" parent="." instance=ExtResource("2_4q77l")]
 position = Vector2(2658, 1674)
 
@@ -42,5 +92,10 @@ position = Vector2(-626, -374)
 [node name="joalheiro" parent="." instance=ExtResource("7_h4ced")]
 position = Vector2(1992, 161)
 
+[node name="PauseManager" type="Node" parent="."]
+script = ExtResource("9_pause_manager")
+
+[connection signal="pressed" from="UICanvas/PauseMenu/MenuContainer/ResumeButton" to="PauseManager" method="_on_resume_button_pressed"]
+[connection signal="pressed" from="UICanvas/PauseMenu/MenuContainer/QuitButton" to="PauseManager" method="_on_quit_button_pressed"]
 [connection signal="body_entered" from="comerciante_alimentos" to="comerciante_alimentos" method="_on_body_entered"]
 [connection signal="body_exited" from="comerciante_alimentos" to="comerciante_alimentos" method="_on_body_exited"]
