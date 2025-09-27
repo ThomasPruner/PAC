@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgdrh82dqehm6"]
 
-[ext_resource type="Script" path="res://scripts/vitoria.gd" id="1_vitoria"]
+[ext_resource type="Script" uid="uid://bw3kmgi33f5ct" path="res://scripts/vitoria.gd" id="1_vitoria"]
 
 [node name="Vitoria" type="Control"]
 layout_mode = 3
