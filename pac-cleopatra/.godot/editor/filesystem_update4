@@ -10,3 +10,6 @@ res://cenas/vitoria.tscn
 res://scripts/scripts-botoes/botao_comecar.gd
 res://scripts/scripts-botoes/tela_transicao.gd
 res://cenas/tela_transicao.tscn
+res://scripts/Scripts-NPC/joalheiro_dialogo.gd
+res://scripts/Scripts-NPC/comerciante_alimentos_dialogo.gd
+res://scripts/scripts-botoes/botao_instrucoes.gd
