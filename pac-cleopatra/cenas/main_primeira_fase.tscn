@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://4cjrjxxn1lcq" path="res://cenas/map_obstacles.tscn" id="4_obstacles"]
 [ext_resource type="PackedScene" uid="uid://bbw5mmomx30lw" path="res://cenas/comerciante_alimentos.tscn" id="4_vn7u8"]
 [ext_resource type="PackedScene" uid="uid://ckwa3bypinuh6" path="res://cenas/joalheiro.tscn" id="7_h4ced"]
-[ext_resource type="PackedScene" uid="uid://b8k2x3m4n5p6q" path="res://cenas/mission_ui.tscn" id="8_mission_ui"]
+[ext_resource type="PackedScene" path="res://cenas/mission_ui.tscn" id="8_mission_ui"]
 
 [node name="Mapa" type="Node2D"]
 position = Vector2(626, 374)
