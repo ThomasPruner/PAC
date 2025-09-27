@@ -1,11 +1,11 @@
+Label
 Sprite2D
+Area2D
 Button
 VBoxContainer
-Label
 TextureRect
 Tree
 CollisionShape2D
-Area2D
 StaticBody2D
 CharacterBody2D
 Node2D

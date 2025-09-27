@@ -1,0 +1,82 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8k2x3m4n5p6q"]
+
+[ext_resource type="Script" path="res://scripts/mission_ui.gd" id="1_mission_ui"]
+
+[node name="MissionUI" type="Control"]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -300.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 200.0
+script = ExtResource("1_mission_ui")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.7)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 0
+anchor_left = 0.0
+anchor_right = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = 30.0
+text = "MISSÕES"
+horizontal_alignment = 1
+
+[node name="MissionList" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 40.0
+offset_right = -10.0
+offset_bottom = -10.0
+
+[node name="EscribaMission" type="HBoxContainer" parent="MissionList"]
+layout_mode = 2
+
+[node name="EscribaCheck" type="Label" parent="MissionList/EscribaMission"]
+layout_mode = 2
+text = "❌"
+horizontal_alignment = 1
+
+[node name="EscribaText" type="Label" parent="MissionList/EscribaMission"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Fragmento mapa Escriba"
+
+[node name="JoalheiroMission" type="HBoxContainer" parent="MissionList"]
+layout_mode = 2
+
+[node name="JoalheiroCheck" type="Label" parent="MissionList/JoalheiroMission"]
+layout_mode = 2
+text = "❌"
+horizontal_alignment = 1
+
+[node name="JoalheiroText" type="Label" parent="MissionList/JoalheiroMission"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Fragmento mapa Joalheiro"
+
+[node name="AlimentoMission" type="HBoxContainer" parent="MissionList"]
+layout_mode = 2
+
+[node name="AlimentoCheck" type="Label" parent="MissionList/AlimentoMission"]
+layout_mode = 2
+text = "❌"
+horizontal_alignment = 1
+
+[node name="AlimentoText" type="Label" parent="MissionList/AlimentoMission"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Fragmento mapa Comerciante"

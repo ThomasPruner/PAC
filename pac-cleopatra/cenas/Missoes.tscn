@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d1ef60ylogy47"]
+
+[node name="Missoes" type="Area2D"]
+
+[node name="missoesLabel" type="Label" parent="."]
+offset_left = 888.0
+offset_top = 28.0
+offset_right = 1257.0
+offset_bottom = 103.0
+text = "Fragmento mapa Escriba 0/1
+Fragmento mapa Joalheiro 0/1
+Fragmento mapa Comerciante de alimentos 0/1"
