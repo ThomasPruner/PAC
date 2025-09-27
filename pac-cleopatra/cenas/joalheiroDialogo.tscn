@@ -27,7 +27,7 @@ offset_top = 30.0
 offset_right = 1136.0
 offset_bottom = 104.0
 theme_override_styles/normal = SubResource("StyleBoxFlat_bqxgi")
-text = "Para receber uma parte do mapa, preciso saber se você conhece a terra dos faraós. Qual é o maior rio do Egito?"
+text = "Não aceito qualquer bugiganga. Traga-me o símbolo que protege os faraós na vida após a morte."
 horizontal_alignment = 1
 vertical_alignment = 1
 

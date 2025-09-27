@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://do1riv3t7bcys"]
+[gd_scene load_steps=2 format=3 uid="uid://dghdbjp20ewjp"]
 
 [ext_resource type="Script" uid="uid://cnwlysite2ble" path="res://scripts/scripts-botoes/tela_transicao.gd" id="1_transicao"]
 
