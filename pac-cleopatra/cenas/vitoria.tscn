@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4brddmp70cyl"]
+
+[ext_resource type="Script" uid="uid://bw3kmgi33f5ct" path="res://scripts/vitoria.gd" id="1_vitoria"]
+
+[node name="Vitoria" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vitoria")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1, 0.1, 0.2, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -150.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🎉 PARABÉNS! 🎉"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Subtitulo" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "TODAS AS MISSÕES FORAM CONCLUÍDAS!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Descricao" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Você coletou todos os fragmentos do mapa e completou sua jornada!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="VoltarButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "🏠 Voltar ao Menu"
