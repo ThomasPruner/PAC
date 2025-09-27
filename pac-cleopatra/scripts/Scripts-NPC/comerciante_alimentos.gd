@@ -64,6 +64,6 @@ func _process(_delta: float) -> void:
 				GlobalVars.player_position = player.global_position
 			var packed := load(SCENE_PATH) as PackedScene
 			if packed:
-				get_tree().change_scene_to_file("res://cenas/escribaDialogo.tscn")
+				get_tree().change_scene_to_file("res://cenas/comerciante_alimentosDialogo.tscn")
 			else:
 				push_error("Cena não encontrada: " + SCENE_PATH)
