@@ -14,6 +14,7 @@ Explore o mapa, converse com NPCs e resolva enigmas para avançar na aventura.
 
 ---
 
+
 ## 🛠️ Tecnologias utilizadas
 
 - **Engine:** [Godot 4](https://godotengine.org/)  
@@ -25,6 +26,16 @@ Explore o mapa, converse com NPCs e resolva enigmas para avançar na aventura.
 
 - `pac-cleopatra/` → Cenas, scripts e assets principais do jogo.  
 - `.godot/` → Arquivos internos do editor (não necessários para jogar).  
+
+---
+
+## 🖥️ Requisitos mínimos
+
+Nada muito exigente — roda até numa **batata com processador FX** 🥔💻.  
+- Sistema operacional: Windows / Linux / macOS  
+- [Godot 4](https://godotengine.org/download) instalado  
+- 2 GB de RAM  
+- Algum espaço em disco para o projeto (~100 MB)  
 
 ---
 
