@@ -35,13 +35,15 @@ func _on_body_exited(body: Node) -> void:
 
 func show_interaction_label():
 	# Tenta garantir que o texto exista (Label ou Label2D)
-	if interacao_label is Label:
-		interacao_label.text = "Pressione 'E' para interagir!"
+	if GlobalVars.acertouAlimento == false:
+		if interacao_label is Label:
+			interacao_label.text = "Pressione 'E' para interagir!"
 
 	# Mostra a label de várias formas
-	interacao_label.visible = true
-	if interacao_label.has_method("show"):
-		interacao_label.show()
+	if GlobalVars.acertouAlimento == false:
+		interacao_label.visible = true
+		if interacao_label.has_method("show"):
+			interacao_label.show()
 
 	# Se o pai estiver escondido, force ele a mostrar
 	var p = interacao_label.get_parent()
@@ -55,9 +57,13 @@ func hide_interaction_label():
 			interacao_label.hide()
 
 func _process(_delta: float) -> void:
-	if player_in_area and Input.is_action_just_pressed("interact"):
-		var packed := load(SCENE_PATH) as PackedScene
-		if packed:
-			get_tree().change_scene_to_file("res://cenas/escribaDialogo.tscn")
-		else:
-			push_error("Cena não encontrada: " + SCENE_PATH)
+	if GlobalVars.acertouAlimento == false:
+		if player_in_area and Input.is_action_just_pressed("interact"):
+			var player = get_tree().get_first_node_in_group("Player")
+			if player:
+				GlobalVars.player_position = player.global_position
+			var packed := load(SCENE_PATH) as PackedScene
+			if packed:
+				get_tree().change_scene_to_file("res://cenas/escribaDialogo.tscn")
+			else:
+				push_error("Cena não encontrada: " + SCENE_PATH)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bvk3d72v4vb73"]
+[gd_scene load_steps=5 format=3 uid="uid://bvk3d72v4vb73"]
 
 [ext_resource type="Script" uid="uid://c7d6hmko5aq8g" path="res://scripts/Scripts-NPC/escriba_dialogo.gd" id="1_nqsmo"]
 [ext_resource type="Texture2D" uid="uid://bo7cykvb48xn0" path="res://assets/escriba/cenaEscriba.png" id="2_14i08"]
@@ -8,6 +8,8 @@ corner_radius_top_left = 8
 corner_radius_top_right = 8
 corner_radius_bottom_right = 8
 corner_radius_bottom_left = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_14i08"]
 
 [node name="escriba" type="Control"]
 layout_mode = 3
@@ -51,6 +53,17 @@ layout_mode = 2
 
 [node name="Button4" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+
+[node name="LabelFeedback" type="Label" parent="."]
+layout_mode = 0
+offset_left = 518.0
+offset_top = 67.0
+offset_right = 587.0
+offset_bottom = 146.0
+scale = Vector2(5, 1.781)
+label_settings = SubResource("LabelSettings_14i08")
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]

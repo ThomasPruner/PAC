@@ -1,7 +1,7 @@
+Label
 Sprite2D
 Button
 VBoxContainer
-Label
 TextureRect
 Tree
 CollisionShape2D
