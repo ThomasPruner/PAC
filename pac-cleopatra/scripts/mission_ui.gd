@@ -7,6 +7,7 @@ extends Control
 
 # Timer para atualizar as missões
 var update_timer: Timer
+var victory_triggered = false
 
 func _ready():
 	# Forçar posicionamento fixo na tela
@@ -52,25 +53,20 @@ func _update_missions():
 		alimento_check.modulate = Color.WHITE
 	
 	# Verificar se todas as missões foram completadas
-	if GlobalVars.acertouEscriba and GlobalVars.acertouJoalheiro and GlobalVars.acertouAlimento:
+	if GlobalVars.acertouEscriba and GlobalVars.acertouJoalheiro and GlobalVars.acertouAlimento and not victory_triggered:
 		GlobalVars.acertouTudo = true
+		victory_triggered = true
+		print("Todas as missões completadas! Mudando para cena de vitória...")
 		_show_completion_message()
 
 func _show_completion_message():
-	# Criar mensagem de conclusão
-	var completion_label = Label.new()
-	completion_label.text = "🎉 TODAS AS MISSÕES CONCLUÍDAS! 🎉"
-	completion_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	completion_label.add_theme_color_override("font_color", Color.YELLOW)
-	completion_label.add_theme_font_size_override("font_size", 16)
+	# Parar o timer para evitar múltiplas chamadas
+	if update_timer:
+		update_timer.stop()
 	
-	# Adicionar ao container de missões
-	$MissionList.add_child(completion_label)
-	
-	# Remover após 5 segundos
-	var remove_timer = Timer.new()
-	remove_timer.wait_time = 5.0
-	remove_timer.one_shot = true
-	remove_timer.timeout.connect(func(): completion_label.queue_free())
-	add_child(remove_timer)
-	remove_timer.start()
+	# Mudar para a cena de vitória usando call_deferred para evitar problemas de timing
+	print("Carregando cena de vitória...")
+	call_deferred("_load_victory_scene")
+
+func _load_victory_scene():
+	get_tree().change_scene_to_file("res://cenas/vitoria.tscn")
