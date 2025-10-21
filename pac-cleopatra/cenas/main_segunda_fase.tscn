@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://dieelgeqveox6"]
+
+[ext_resource type="Texture2D" uid="uid://xmw33je1ooib" path="res://assets/Segunda Fase/mapa.png" id="1_1o570"]
+[ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="2_1o570"]
+[ext_resource type="PackedScene" uid="uid://dxmphmdfbveft" path="res://cenas/map_boundaries.tscn" id="3_1o570"]
+[ext_resource type="PackedScene" uid="uid://b11rwmc1i612l" path="res://cenas/quadro.tscn" id="4_jy1qv"]
+
+[node name="mapa" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-1086.62, -356.5)
+scale = Vector2(1.89844, 1.57813)
+texture = ExtResource("1_1o570")
+offset = Vector2(1077, 992)
+
+[node name="Player" parent="." instance=ExtResource("2_1o570")]
+position = Vector2(635, 358)
+
+[node name="MapBoundaries" parent="." instance=ExtResource("3_1o570")]
+position = Vector2(-15, -22)
+
+[node name="quadro" parent="." instance=ExtResource("4_jy1qv")]
+position = Vector2(26, 1671)
