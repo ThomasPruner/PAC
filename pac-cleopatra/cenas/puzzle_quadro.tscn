@@ -1,0 +1,47 @@
+[gd_scene load_steps=8 format=3 uid="uid://b4wvlm0pbt243"]
+
+[ext_resource type="Texture2D" uid="uid://bhbo7x52jeum" path="res://assets/Segunda Fase/Fundo Puzzle testes.png" id="1_73atw"]
+[ext_resource type="Script" uid="uid://dhumti4a5orw3" path="res://scripts/fase2/DropZone.gd" id="2_0cob1"]
+[ext_resource type="Script" uid="uid://ckapgn86tynnx" path="res://scripts/hieroglyph.gd" id="2_nr07q"]
+[ext_resource type="Texture2D" uid="uid://bxosnlqowhw6w" path="res://assets/Segunda Fase/h1.png" id="3_1jbye"]
+[ext_resource type="Texture2D" uid="uid://dvl844pdnbxb4" path="res://assets/Segunda Fase/h2.png" id="5_vdt7a"]
+[ext_resource type="Texture2D" uid="uid://f00lx4e48plx" path="res://assets/Segunda Fase/h3.png" id="6_dhyx7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0cob1"]
+size = Vector2(818.5, 233.5)
+
+[node name="PuzzleQuadro" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(642, 386)
+scale = Vector2(0.3175, 0.162)
+texture = ExtResource("1_73atw")
+
+[node name="DropZone" type="Area2D" parent="." groups=["drop_zone"]]
+script = ExtResource("2_0cob1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DropZone"]
+position = Vector2(646, 172)
+shape = SubResource("RectangleShape2D_0cob1")
+
+[node name="Hieroglyphs" type="Node2D" parent="."]
+
+[node name="Hieroglyph1" type="Sprite2D" parent="Hieroglyphs" groups=["hieroglyphs"]]
+position = Vector2(936.25, 576.25)
+scale = Vector2(0.711896, 0.745989)
+texture = ExtResource("3_1jbye")
+script = ExtResource("2_nr07q")
+
+[node name="Hieroglyph2" type="Sprite2D" parent="Hieroglyphs" groups=["hieroglyphs"]]
+position = Vector2(630.25, 571.25)
+scale = Vector2(0.762222, 0.637778)
+texture = ExtResource("5_vdt7a")
+script = ExtResource("2_nr07q")
+
+[node name="Hieroglyph3" type="Sprite2D" parent="Hieroglyphs" groups=["hieroglyphs"]]
+position = Vector2(277.25, 572.75)
+scale = Vector2(0.744444, 0.704444)
+texture = ExtResource("6_dhyx7")
+script = ExtResource("2_nr07q")
+
+[connection signal="area_entered" from="DropZone" to="DropZone" method="_on_area_entered"]

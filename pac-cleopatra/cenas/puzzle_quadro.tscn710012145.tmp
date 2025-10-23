@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4wvlm0pbt243"]
+
+[ext_resource type="Texture2D" uid="uid://bhbo7x52jeum" path="res://assets/Segunda Fase/Fundo Puzzle testes.png" id="1_73atw"]
+[ext_resource type="Script" uid="uid://dhumti4a5orw3" path="res://scripts/fase2/DropZone.gd" id="2_0cob1"]
+[ext_resource type="Script" uid="uid://ckapgn86tynnx" path="res://scripts/hieroglyph.gd" id="2_nr07q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0cob1"]
+size = Vector2(748.5, 160.5)
+
+[node name="PuzzleQuadro" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(642, 386)
+scale = Vector2(0.3175, 0.162)
+texture = ExtResource("1_73atw")
+
+[node name="DropZone" type="Area2D" parent="."]
+script = ExtResource("2_0cob1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DropZone"]
+position = Vector2(642.75, 160.75)
+shape = SubResource("RectangleShape2D_0cob1")
+
+[node name="Hieroglyphs" type="Node2D" parent="."]
+
+[node name="Hieroglyph1" type="Sprite2D" parent="Hieroglyphs"]
+script = ExtResource("2_nr07q")
+
+[node name="Hieroglyph2" type="Sprite2D" parent="Hieroglyphs"]
+script = ExtResource("2_nr07q")

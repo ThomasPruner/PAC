@@ -1,6 +1,8 @@
+res://cenas/puzzle_quadro.tscn
 res://cenas/main_segunda_fase.tscn
-res://cenas/main_primeira_fase.tscn
-res://cenas/map_boundaries.tscn
 res://scripts/fase2/quadro.gd
-res://cenas/quadro.tscn
+res://cenas/main_primeira_fase.tscn
 res://cenas/escriba.tscn
+res://cenas/quadro.tscn
+res://scripts/hieroglyph.gd
+res://scripts/fase2/DropZone.gd
