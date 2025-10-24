@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://btsqa3a0pqyil"]
+
+[ext_resource type="Script" uid="uid://g024oc0wh82h" path="res://scripts/fase2/quadro.gd" id="1_382hr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5jels"]
+size = Vector2(597, 1256)
+
+[node name="quadro" type="Area2D"]
+script = ExtResource("1_382hr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(64, 55)
+shape = SubResource("RectangleShape2D_5jels")
+
+[node name="InteracaoLabel" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -349.0
+offset_top = -412.0
+offset_right = -80.0
+offset_bottom = -364.0
+grow_horizontal = 2
+scale = Vector2(4, 4)
+text = "Pressione \"E\" para interagir!"
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
