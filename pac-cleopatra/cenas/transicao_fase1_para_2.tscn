@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8k2x3m4n5p6q"]
+
+[ext_resource type="Script" path="res://scripts/transicao_fase1_para_2.gd" id="1_transicao"]
+
+[node name="TransicaoFase1Para2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_transicao")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1, 0.05, 0.0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -300.0
+offset_right = 400.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🧩 FASE DOS HIERÓGLIFOS 🧩"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Instrucoes" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+text = "[center][color=gold]Parabéns por completar todas as missões![/color]
+
+Você coletou informações valiosas dos três comerciantes e agora está pronto para a próxima etapa de sua jornada.
+
+[color=yellow]🔍 NOVA MISSÃO:[/color]
+
+Agora você deve encontrar um [color=lime]quadro misterioso[/color] que contém um enigma dos hieróglifos antigos. Este quadro guarda os segredos que o levarão mais próximo dos tesouros perdidos.
+
+[color=orange]Dica:[/color] O quadro está em uma área especial onde você precisará decifrar a sequência correta dos hieróglifos para prosseguir.
+
+[color=gold]Boa sorte em sua nova aventura![/color][/center]"
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ContinuarButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "🚪 Continuar Jornada"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true

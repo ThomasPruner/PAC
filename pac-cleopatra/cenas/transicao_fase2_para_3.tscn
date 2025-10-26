@@ -1,0 +1,71 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbs6e2dearken"]
+
+[ext_resource type="Script" uid="uid://e130uptg8aum" path="res://scripts/transicao_fase2_para_3.gd" id="1_transicao"]
+
+[node name="TransicaoFase2Para3" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_transicao")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1, 0.05, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -300.0
+offset_right = 400.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Titulo" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "🏛️ FASE FINAL 🏛️"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Instrucoes" type="RichTextLabel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+text = "[center][color=gold]Parabéns por completar o puzzle dos hieróglifos![/color]
+
+Agora você chegou à fase final da sua jornada. Dentro da tumba, você encontrará [color=yellow]dois sarcófagos[/color].
+
+[color=red]⚠️ ATENÇÃO ⚠️[/color]
+
+Você deve encontrar o [color=lime]Sarcófago 2[/color] - ele é o sarcófago correto que contém os tesouros que você procura.
+
+[color=orange]Dica:[/color] O Sarcófago 2 tem uma aparência mais elaborada e ornamentada.
+
+[color=gold]Boa sorte em sua busca final![/color][/center]"
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="ContinuarButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "🚪 Entrar na Tumba"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true

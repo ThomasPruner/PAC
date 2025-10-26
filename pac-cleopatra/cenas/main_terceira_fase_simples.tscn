@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cwvmpsau1j84o"]
+
+[ext_resource type="Texture2D" uid="uid://c6xmgo17243wd" path="res://assets/Terceira fase/Mapa_Tumba_2.png" id="1_q8vpg"]
+[ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="2_xteox"]
+
+[node name="mapa2" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(811.5, 908.5)
+scale = Vector2(1.58301, 1.77637)
+texture = ExtResource("1_q8vpg")
+
+[node name="Player" parent="." instance=ExtResource("2_xteox")]
+position = Vector2(635, 358)
