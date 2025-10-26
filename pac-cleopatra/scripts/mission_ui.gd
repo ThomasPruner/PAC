@@ -56,17 +56,15 @@ func _update_missions():
 	if GlobalVars.acertouEscriba and GlobalVars.acertouJoalheiro and GlobalVars.acertouAlimento and not victory_triggered:
 		GlobalVars.acertouTudo = true
 		victory_triggered = true
-		print("Todas as missões completadas! Mudando para cena de vitória...")
-		_show_completion_message()
+		print("Todas as missões completadas! Mudando para transição...")
+		
+		# Parar o timer para evitar múltiplas chamadas
+		if update_timer:
+			update_timer.stop()
+		
+		# Usar call_deferred para evitar problemas de timing durante a transição
+		call_deferred("_load_transition")
 
-func _show_completion_message():
-	# Parar o timer para evitar múltiplas chamadas
-	if update_timer:
-		update_timer.stop()
-	
-	# Mudar para a cena de vitória usando call_deferred para evitar problemas de timing
-	print("Carregando cena de vitória...")
-	call_deferred("_load_victory_scene")
-
-func _load_victory_scene():
-	get_tree().change_scene_to_file("res://cenas/vitoria.tscn")
+func _load_transition():
+	print("Carregando transição fase 1 → 2...")
+	get_tree().change_scene_to_file("res://cenas/transicao_fase1_para_2.tscn")

@@ -2,7 +2,6 @@ extends Area2D
 
 var player_in_area: bool = false
 @onready var interacao_label: Node = $InteracaoLabel
-const SCENE_PATH := "res://cenas/instrucoes.tscn"
 
 func _ready() -> void:
 	set_process(true)
@@ -34,9 +33,9 @@ func _on_body_exited(body: Node) -> void:
 		hide_interaction_label()
 
 func show_interaction_label():
-	# Mostrar label para sarcófago 1 (errado)
+	# Mostrar label de interação para o sarcófago correto
 	if interacao_label is Label:
-		interacao_label.text = "Pressione 'E' para examinar"
+		interacao_label.text = "Pressione 'E' para abrir o sarcófago!"
 	
 	interacao_label.visible = true
 	if interacao_label.has_method("show"):
@@ -54,22 +53,16 @@ func hide_interaction_label():
 			interacao_label.hide()
 
 func _process(_delta: float) -> void:
-	# Sarcófago 1 (errado) - mostrar mensagem
+	# Permitir interação sempre (sarcófago correto)
 	if player_in_area and Input.is_action_just_pressed("interact"):
-		print("❌ Este não é o sarcófago correto!")
-		_show_wrong_sarcophagus_message()
+		print("🎉 Sarcófago correto encontrado! Mostrando certificado de vitória...")
+		_show_victory_certificate()
 
-func _show_wrong_sarcophagus_message():
-	# Mostrar mensagem de que é o sarcófago errado
-	var dialog = AcceptDialog.new()
-	dialog.title = "Sarcófago Incorreto"
-	dialog.dialog_text = "Este sarcófago não contém os tesouros que você procura.\n\nProcure pelo Sarcófago 2 - ele tem uma aparência mais elaborada e ornamentada."
-	dialog.size = Vector2(400, 200)
+func _show_victory_certificate():
+	# Salvar posição do player
+	var player = get_tree().get_first_node_in_group("Player")
+	if player:
+		GlobalVars.player_position = player.global_position
 	
-	# Adicionar à cena atual
-	get_tree().current_scene.add_child(dialog)
-	dialog.popup_centered()
-	
-	# Remover o dialog após ser fechado
-	dialog.confirmed.connect(func(): dialog.queue_free())
-	dialog.canceled.connect(func(): dialog.queue_free())
+	# Mostrar certificado de vitória
+	get_tree().change_scene_to_file("res://cenas/certificado_vitoria.tscn")

@@ -1,11 +1,13 @@
-[gd_scene load_steps=9 format=3 uid="uid://dfqfwvv0fh8go"]
+[gd_scene load_steps=11 format=3 uid="uid://dfqfwvv0fh8go"]
 
 [ext_resource type="Texture2D" uid="uid://c6xmgo17243wd" path="res://assets/Terceira fase/Mapa_Tumba_2.png" id="1_q8vpg"]
 [ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="2_xteox"]
 [ext_resource type="Script" uid="uid://tqydf8r5t33p" path="res://scripts/map_boundaries.gd" id="3_8rrb0"]
-[ext_resource type="PackedScene" uid="uid://btsqa3a0pqyil" path="res://cenas/sarco1.tscn" id="4_67oq8"]
 [ext_resource type="Texture2D" uid="uid://dxrav21wqdbw1" path="res://assets/Terceira fase/Sarcófago 1.png" id="4_e6ru7"]
+[ext_resource type="PackedScene" uid="uid://btsqa3a0pqyil" path="res://cenas/sarco1.tscn" id="5_sarcofago2"]
 [ext_resource type="Texture2D" uid="uid://b73y6xuuxxkf" path="res://assets/Terceira fase/Sarcofago 2.png" id="6_hagbt"]
+[ext_resource type="Script" uid="uid://ck7srpx23kiqq" path="res://scripts/fase3/sarco1.gd" id="6_msom3"]
+[ext_resource type="Script" uid="uid://dofwndexe7wki" path="res://scripts/fase3/sarcofago2.gd" id="8_df62w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67oq8"]
 size = Vector2(110, 1812.5)
@@ -13,7 +15,7 @@ size = Vector2(110, 1812.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8rrb0"]
 size = Vector2(1681.5, 20)
 
-[node name="mapa" type="Node2D"]
+[node name="mapa2" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(811.5, 908.5)
@@ -58,13 +60,15 @@ position = Vector2(108, 1597)
 scale = Vector2(0.275391, 0.208333)
 texture = ExtResource("4_e6ru7")
 
-[node name="quadro" parent="Sprite2D2" instance=ExtResource("4_67oq8")]
+[node name="quadro" parent="Sprite2D2" instance=ExtResource("5_sarcofago2")]
 position = Vector2(43.5744, -48.0006)
+script = ExtResource("6_msom3")
 
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 position = Vector2(1505.5, 1631)
 scale = Vector2(0.30957, 0.246094)
 texture = ExtResource("6_hagbt")
 
-[node name="quadro" parent="Sprite2D3" instance=ExtResource("4_67oq8")]
+[node name="quadro" parent="Sprite2D3" instance=ExtResource("5_sarcofago2")]
 position = Vector2(-75.9117, -44.6984)
+script = ExtResource("8_df62w")

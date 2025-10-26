@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var correct_sequence: Array[String] = ["Hieroglyph1", "Hieroglyph2", "Hieroglyph3"]
+@export var correct_sequence: Array[String] = ["Hieroglyph1", "Hieroglyph3", "Hieroglyph2"]
 var current_sequence: Array[String] = []
 var slots: Array[Vector2] = []  # Posições dos slots no DropZone
 var occupied_slots: Array[bool] = []  # Quais slots estão ocupados
@@ -73,6 +73,7 @@ func check_sequence() -> void:
 	if current_sequence == correct_sequence:
 		print("✅ Sequência correta! Passa de fase!")
 		get_tree().create_timer(1.0).timeout.connect(_on_correct_sequence)
+		get_tree().change_scene_to_file("res://cenas/transicao_fase2_para_3.tscn")
 	else:
 		print("❌ Sequência errada! Resetando...")
 		get_tree().create_timer(1.0).timeout.connect(_reset_hieroglyphs)

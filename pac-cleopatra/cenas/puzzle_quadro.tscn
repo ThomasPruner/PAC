@@ -13,7 +13,7 @@ size = Vector2(818.5, 233.5)
 [node name="PuzzleQuadro" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(643, 418)
+position = Vector2(640, 511)
 scale = Vector2(1.24023, 0.689724)
 texture = ExtResource("1_1jbye")
 
@@ -21,19 +21,19 @@ texture = ExtResource("1_1jbye")
 script = ExtResource("2_0cob1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DropZone"]
-position = Vector2(646, 172)
+position = Vector2(639, 262)
 shape = SubResource("RectangleShape2D_0cob1")
 
 [node name="Hieroglyphs" type="Node2D" parent="."]
 
 [node name="Hieroglyph1" type="Sprite2D" parent="Hieroglyphs" groups=["hieroglyphs"]]
-position = Vector2(958, 575)
+position = Vector2(644, 575)
 scale = Vector2(0.55509, 0.5319)
 texture = ExtResource("3_1jbye")
 script = ExtResource("2_nr07q")
 
 [node name="Hieroglyph2" type="Sprite2D" parent="Hieroglyphs" groups=["hieroglyphs"]]
-position = Vector2(649, 577)
+position = Vector2(918, 590)
 scale = Vector2(0.614567, 0.54969)
 texture = ExtResource("5_vdt7a")
 script = ExtResource("2_nr07q")
@@ -43,5 +43,14 @@ position = Vector2(345, 579)
 scale = Vector2(0.56203, 0.561119)
 texture = ExtResource("6_dhyx7")
 script = ExtResource("2_nr07q")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 342.0
+offset_top = 18.0
+offset_right = 945.0
+offset_bottom = 155.0
+text = "“O olhar de Hórus enxerga o passado distante.
+Antes que o falcão alce voo, o sábio já observava em silêncio.\""
+horizontal_alignment = 1
 
 [connection signal="area_entered" from="DropZone" to="DropZone" method="_on_area_entered"]
