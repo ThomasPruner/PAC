@@ -20,6 +20,8 @@ func _on_button_2_pressed() -> void:
 
 func _on_button_3_pressed() -> void:
 	show_feedback("Acertou!", Color.GREEN)
+	
+	
 	await get_tree().create_timer(2.0).timeout  # espera 2 segundos
 	GlobalVars.acertouEscriba = true
 	get_tree().change_scene_to_file("res://cenas/main_primeira_fase.tscn")

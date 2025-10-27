@@ -1,9 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dieelgeqveox6"]
+[gd_scene load_steps=9 format=3 uid="uid://dieelgeqveox6"]
 
 [ext_resource type="Texture2D" uid="uid://xmw33je1ooib" path="res://assets/Segunda Fase/mapa.png" id="1_1o570"]
 [ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="2_1o570"]
+[ext_resource type="AudioStream" uid="uid://dj8tovirb5nd1" path="res://EfeitosSonoros/andar.mp3" id="3_tgo0y"]
 [ext_resource type="PackedScene" uid="uid://b11rwmc1i612l" path="res://cenas/quadro.tscn" id="4_jy1qv"]
 [ext_resource type="Script" uid="uid://tqydf8r5t33p" path="res://scripts/map_boundaries.gd" id="4_w8n6r"]
+[ext_resource type="AudioStream" uid="uid://diqbtdbmn8b8f" path="res://EfeitosSonoros/som caverna.mp3" id="5_w8n6r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tgo0y"]
 size = Vector2(1950, 20)
@@ -21,6 +23,10 @@ offset = Vector2(1077, 992)
 
 [node name="Player" parent="." instance=ExtResource("2_1o570")]
 position = Vector2(635, 358)
+
+[node name="andar" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource("3_tgo0y")
+pitch_scale = 0.85
 
 [node name="quadro" parent="." instance=ExtResource("4_jy1qv")]
 position = Vector2(26, 1671)
@@ -52,3 +58,10 @@ script = ExtResource("4_w8n6r")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
 position = Vector2(1852, 1234)
 shape = SubResource("RectangleShape2D_p0nj8")
+
+[node name="Som_ambiente" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_w8n6r")
+volume_db = -1.368
+pitch_scale = 2.0
+autoplay = true
+parameters/looping = true
