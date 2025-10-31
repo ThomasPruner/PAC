@@ -1,97 +1,106 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1761479231
-icon.svg::CompressedTexture2D/CompressedTexture2D::2509371177546095097::1761479143::1761479234::1::::<><><>0<>0<>e1e44cc5bb78078ab33c9cf7f43b63d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1761479143
-::res://assets/comerciante_alimentos/::1761479143
-cenaAlimentos.png::CompressedTexture2D/CompressedTexture2D::1129894792744853463::1761479143::1761479246::1::::<><><>0<>0<>f642bae8d649eaca9b9b09c107f0988b<>res://.godot/imported/cenaAlimentos.png-c2aee0bfb749256f0b535b603a69ffff.ctex::
-Comerciante de Alimentos.png::CompressedTexture2D/CompressedTexture2D::8694129136467365591::1761479143::1761479245::1::::<><><>0<>0<>9de1cbad8283803b9e900223ba9513b4<>res://.godot/imported/Comerciante de Alimentos.png-ea8d8fd3f42e3d8bb24e86de8d3c97ce.ctex::
-::res://assets/comerciante_joias/::1761479143
-cenaJoalheiro.png::CompressedTexture2D/CompressedTexture2D::6401025243814308003::1761479143::1761479246::1::::<><><>0<>0<>da363da4663fde76b4c07ef70a6e26eb<>res://.godot/imported/cenaJoalheiro.png-11df49c9b762ddea2df559e94155507d.ctex::
-joalheiro.png::CompressedTexture2D/CompressedTexture2D::130341154300947042::1761479143::1761479245::1::::<><><>0<>0<>56979ed5b1393227bba4b0f718e89316<>res://.godot/imported/joalheiro.png-fa669badafab3f33f610a219c4aa5d9e.ctex::
-::res://assets/escriba/::1761479143
-cenaEscriba.png::CompressedTexture2D/CompressedTexture2D::3435289433554625127::1761479143::1761479246::1::::<><><>0<>0<>e4d0992a40a58c0612450d474781975e<>res://.godot/imported/cenaEscriba.png-1e195a2f357f90c0a4f07d39348a50f3.ctex::
-escriba.png::CompressedTexture2D/CompressedTexture2D::5810013560760113390::1761479143::1761479248::1::::<><><>0<>0<>715519258baf4fcf1dc7e0628488bbf3<>res://.godot/imported/escriba.png-00521b91e74ad20814eb0afbc33424eb.ctex::
-::res://assets/Menu Inicial/::1761479142
-Botao_Comecar.png::CompressedTexture2D/CompressedTexture2D::8925871245259617161::1761479142::1761479244::1::::<><><>0<>0<>f2263098cf3063dd7741e2cdfde91a96<>res://.godot/imported/Botao_Comecar.png-643cce9b08fb3b570c175827c52964b9.ctex::
-Botao_Instrucoes.png::CompressedTexture2D/CompressedTexture2D::7152049802841950023::1761479142::1761479244::1::::<><><>0<>0<>9f9a9e363a92c97c1a24c2583dc47eaa<>res://.godot/imported/Botao_Instrucoes.png-b22a772a8d8431cc56992a02d1f7fbe2.ctex::
-Menu1.png::CompressedTexture2D/CompressedTexture2D::5562636265903490244::1761479142::1761479244::1::::<><><>0<>0<>a675444e917c16d69c20d6923f1ee02f<>res://.godot/imported/Menu1.png-6a26325d54aaa1daa00f5238bdce1199.ctex::
-tela instruções.png::CompressedTexture2D/CompressedTexture2D::2907857462701989805::1761479142::1761479245::1::::<><><>0<>0<>339c7280df861b80c7ee98d5e498c54a<>res://.godot/imported/tela instruções.png-8e409e73ae9ed0f86030bb7f3fca8461.ctex::
-::res://assets/Personagem Principal/::1761479142
-0-parado.png::CompressedTexture2D/CompressedTexture2D::4090384285173493598::1761479142::1761479241::1::::<><><>0<>0<>7aa1bd0c5d644a958f16569dfbce052a<>res://.godot/imported/0-parado.png-0f21ad54f9190e4363056da34d005c27.ctex::
-1- andando.png::CompressedTexture2D/CompressedTexture2D::6038730096332160591::1761479142::1761479240::1::::<><><>0<>0<>ed47a61810c8af1a36dcd552d630682e<>res://.godot/imported/1- andando.png-2fd05da7e29b825fd06f9de1a51ccbb0.ctex::
-2- andando.png::CompressedTexture2D/CompressedTexture2D::3594860403819221379::1761479142::1761479239::1::::<><><>0<>0<>54c5f92e3e3aab72c31eca7187e490e3<>res://.godot/imported/2- andando.png-e6f3ca5bcc480a12c0b693444d14f043.ctex::
-base.jpg::CompressedTexture2D/CompressedTexture2D::3920603100495685966::1761479142::1761479245::1::::<><><>0<>0<>4e361d7e035a808a74ee58e5e2024918<>res://.godot/imported/base.jpg-cad8f20af18756d44932a5b0dfd4fae5.ctex::
-::res://assets/Personagem Principal/pulo/::1761479142
-1- pulo.png::CompressedTexture2D/CompressedTexture2D::4015399991836870637::1761479142::1761479245::1::::<><><>0<>0<>ded8f0124e59c15b1308f29efbcaefbf<>res://.godot/imported/1- pulo.png-bffa98e8e14290e3f08ab7277fe20f25.ctex::
-2- pulo.png::CompressedTexture2D/CompressedTexture2D::6910040117785015611::1761479142::1761479244::1::::<><><>0<>0<>8daa89d6f8ffa3515daee9adc67ce41f<>res://.godot/imported/2- pulo.png-f752437cf279f11616175b3af6a4af70.ctex::
-3- pulo.png::CompressedTexture2D/CompressedTexture2D::615491172055299246::1761479142::1761479242::1::::<><><>0<>0<>72d61f0cd8b7dcc4c73558dece3fe4f6<>res://.godot/imported/3- pulo.png-12a199b40f527260120446beb4c44c9a.ctex::
-::res://assets/Primeira Fase Mapa/::1761479142
-Mapa4.png::CompressedTexture2D/CompressedTexture2D::8528097562678578231::1761479142::1761479243::1::::<><><>0<>0<>02c9473147b3b79434c629687baae865<>res://.godot/imported/Mapa4.png-b51b23884c9f0292f0ee4892dfa53c7a.ctex::
-::res://assets/Segunda Fase/::1761479142
-Fundo Puzzle testes.png::CompressedTexture2D/CompressedTexture2D::84726923701094844::1761479142::1761479246::1::::<><><>0<>0<>2b07ffe8dd6e35144fd4dbaaf5b21952<>res://.godot/imported/Fundo Puzzle testes.png-f170c0e21ee947f42779f7e730acc120.ctex::
-Fundo Puzzle.png::CompressedTexture2D/CompressedTexture2D::1429014172128240139::1761479142::1761479236::1::::<><><>0<>0<>61bc1d57207a72ef278a948e21877cd3<>res://.godot/imported/Fundo Puzzle.png-e4bd5ffdc8afa1bfc1fb15217f8ccaf8.ctex::
-h1.png::CompressedTexture2D/CompressedTexture2D::4030782100254761956::1761479142::1761479235::1::::<><><>0<>0<>003066c5281e097b6e6bb157984c6d02<>res://.godot/imported/h1.png-3f06f11038afc6eab4f2400274600097.ctex::
-h2.png::CompressedTexture2D/CompressedTexture2D::8657992918060141075::1761479142::1761479235::1::::<><><>0<>0<>6d17f3d0473f530d95c8bfa85db19fef<>res://.godot/imported/h2.png-cea7c64695c3f5516bdbd5d85de5f5f0.ctex::
-h3.png::CompressedTexture2D/CompressedTexture2D::404092483651963361::1761479142::1761479235::1::::<><><>0<>0<>c430e268446db54af5dd0a0cd854cb95<>res://.godot/imported/h3.png-bb67d25efd5559c44259bf7a5a042ba0.ctex::
-Hierografo 1.png::CompressedTexture2D/CompressedTexture2D::4069502688984474467::1761479142::1761479235::1::::<><><>0<>0<>4b2613026470a466db76acb9a9a89c9e<>res://.godot/imported/Hierografo 1.png-b22f36d95dccf0dc1f25f38f98971b2a.ctex::
-Hierografo 2.png::CompressedTexture2D/CompressedTexture2D::7875788745603513067::1761479142::1761479235::1::::<><><>0<>0<>19ee5cac5786e0f3fcbae208536039b6<>res://.godot/imported/Hierografo 2.png-a5751870e8fec18e88ac7ce08739587c.ctex::
-hierografo 3.png::CompressedTexture2D/CompressedTexture2D::5506188043827926567::1761479142::1761479234::1::::<><><>0<>0<>15fe4a0aec512095a5ef9787d7562e5a<>res://.godot/imported/hierografo 3.png-07b48b5c6f7d25288b02dfdb1e58f3e6.ctex::
-mapa.png::CompressedTexture2D/CompressedTexture2D::1640503197567758361::1761479142::1761479236::1::::<><><>0<>0<>25cece2f2ba1a39b1a0815f01bd9de61<>res://.godot/imported/mapa.png-28cbece2903638f8529374ba737fb582.ctex::
-Mapa_Templo 2.png::CompressedTexture2D/CompressedTexture2D::6355337284271501184::1761479142::1761479243::1::::<><><>0<>0<>1bc9953e254e1ee2508410e2c6c8f25d<>res://.godot/imported/Mapa_Templo 2.png-63744132ee01ae7a85b6e843eb854e07.ctex::
-::res://assets/Terceira fase/::1761479143
-Mapa_Tumba_2.png::CompressedTexture2D/CompressedTexture2D::6996916304168212215::1761479142::1761479235::1::::<><><>0<>0<>e70efba94ba0e61197d384cfb6eb850e<>res://.godot/imported/Mapa_Tumba_2.png-ceb8bedf0cf5c9e0fa60b01345072ca8.ctex::
-Sarcofago 2.png::CompressedTexture2D/CompressedTexture2D::137993531309845869::1761479143::1761479236::1::::<><><>0<>0<>ed8aadaf8649b30b2d14339e8a34177b<>res://.godot/imported/Sarcofago 2.png-46d94f721e31c71fa7410469adc1a874.ctex::
-Sarcófago 1.png::CompressedTexture2D/CompressedTexture2D::8808738837561516258::1761479143::1761479237::1::::<><><>0<>0<>54b77f5f32e4b38366740f8777391f76<>res://.godot/imported/Sarcófago 1.png-10a6eb8c74fa0956a574dbc923815f28.ctex::
-::res://cenas/::1761479143
-comerciante_alimentos.tscn::PackedScene::2503869429714855360::1761479143::0::1::::<><><>0<>0<><>::uid://dhr58gsad6tfy::::res://scripts/Scripts-NPC/comerciante_alimentos.gd<>uid://dv4rbimp8qasd::::res://assets/comerciante_alimentos/Comerciante de Alimentos.png
-comerciante_alimentosDialogo.tscn::PackedScene::3052946617230159480::1761479143::0::1::::<><><>0<>0<><>::uid://b4h0xvajxrbjx::::res://scripts/Scripts-NPC/comerciante_alimentos_dialogo.gd<>uid://qdlg4xtoq0hf::::res://assets/comerciante_alimentos/cenaAlimentos.png
-escriba.tscn::PackedScene::5488918291374431393::1761479143::0::1::::<><><>0<>0<><>::uid://b2xvnf3fsv2lb::::res://scripts/Scripts-NPC/escriba.gd<>uid://co1ocsd3q2lms::::res://assets/escriba/escriba.png
-escribaDialogo.tscn::PackedScene::3882737334262203704::1761479143::0::1::::<><><>0<>0<><>::uid://c7d6hmko5aq8g::::res://scripts/Scripts-NPC/escriba_dialogo.gd<>uid://bo7cykvb48xn0::::res://assets/escriba/cenaEscriba.png
-instrucoes.tscn::PackedScene::8256591004908603263::1761479143::0::1::::<><><>0<>0<><>::uid://bhot8tvl48m5j::::res://assets/Menu Inicial/tela instruções.png<>uid://mqvc2728n8c4::::res://scripts/scripts-botoes/voltar-instrucoes.gd
-joalheiro.tscn::PackedScene::5520196206876590629::1761479143::0::1::::<><><>0<>0<><>::uid://yjwdh5rbjhx7::::res://scripts/Scripts-NPC/joalheiro.gd<>uid://b4ex16xrnqec::::res://assets/comerciante_joias/joalheiro.png
-joalheiroDialogo.tscn::PackedScene::7706264724987650134::1761479143::0::1::::<><><>0<>0<><>::uid://cemsfmj6xhsi8::::res://scripts/Scripts-NPC/joalheiro_dialogo.gd<>uid://cxgx7k38ci6bf::::res://assets/comerciante_joias/cenaJoalheiro.png
-main_primeira_fase.tscn::PackedScene::5770354081968035659::1761479143::0::1::::<><><>0<>0<><>::uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://de8mqq7u6dvbu::::res://scripts/mapas/main_primeira_fase.gd<>uid://ckg4xg03a3cwn::::res://cenas/escriba.tscn<>uid://dxmphmdfbveft::::res://cenas/map_boundaries.tscn<>uid://4cjrjxxn1lcq::::res://cenas/map_obstacles.tscn<>uid://bbw5mmomx30lw::::res://cenas/comerciante_alimentos.tscn<>uid://ckwa3bypinuh6::::res://cenas/joalheiro.tscn<>uid://b8k2x3m4n5p6q::::res://cenas/mission_ui.tscn<>uid://djxqq32qy2qrn::::res://scripts/pause_manager.gd
-main_segunda_fase.tscn::PackedScene::7729293144978343637::1761479143::0::1::::<><><>0<>0<><>::uid://xmw33je1ooib::::res://assets/Segunda Fase/mapa.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://b11rwmc1i612l::::res://cenas/quadro.tscn<>uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
-main_terceira_fase.tscn::PackedScene::7543580322338288070::1761479143::0::1::::<><><>0<>0<><>::uid://c6xmgo17243wd::::res://assets/Terceira fase/Mapa_Tumba_2.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://btsqa3a0pqyil::::res://cenas/sarco1.tscn<>uid://dxrav21wqdbw1::::res://assets/Terceira fase/Sarcófago 1.png<>uid://b73y6xuuxxkf::::res://assets/Terceira fase/Sarcofago 2.png
-map_boundaries.tscn::PackedScene::8799301878395555173::1761479143::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
-map_obstacles.tscn::PackedScene::2040182541746414784::1761479143::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png
-menu.tscn::PackedScene::5692532106750832294::1761479143::0::1::::<><><>0<>0<><>::uid://clit2ooeymif1::::res://assets/Menu Inicial/Menu1.png<>uid://d0f02bnngdgxl::::res://assets/Menu Inicial/Botao_Comecar.png<>uid://c85rhk6e5gnyt::::res://assets/Menu Inicial/Botao_Instrucoes.png<>uid://jgk3jitxh73a::::res://scripts/scripts-botoes/botao_comecar.gd<>uid://b5h1gt4u31js0::::res://scripts/scripts-botoes/botao_instrucoes.gd<>uid://ciwqvbmaeikdp::::res://scripts/scripts-botoes/botao_fechar.gd
-mission_ui.tscn::PackedScene::4724978223880928842::1761479143::0::1::::<><><>0<>0<><>::res://scripts/mission_ui.gd
-Missoes.tscn::PackedScene::8992789791937090890::1761479143::0::1::::<><><>0<>0<><>::
-pause_menu.tscn::PackedScene::291061835383370006::1761479143::0::1::::<><><>0<>0<><>::res://scripts/pause_menu.gd
-player.tscn::PackedScene::656813400337722279::1761479143::0::1::::<><><>0<>0<><>::uid://cwjc4ieadq0av::::res://scripts/Scripts-jogador/player.gd<>uid://bxhdb0gxptnj6::::res://assets/Personagem Principal/pulo/1- pulo.png<>uid://c5pjl67nxctvf::::res://assets/Personagem Principal/pulo/2- pulo.png<>uid://i1fbxoulawbe::::res://assets/Personagem Principal/pulo/3- pulo.png<>uid://byjobcqumdhoo::::res://assets/Personagem Principal/0-parado.png<>uid://csbhac2abe7od::::res://assets/Personagem Principal/1- andando.png<>uid://brhm3co1cq2yh::::res://assets/Personagem Principal/2- andando.png
-puzzle_quadro.tscn::PackedScene::4468608829950363690::1761479143::0::1::::<><><>0<>0<><>::uid://umhwi0yew1k6::::res://assets/Segunda Fase/Fundo Puzzle.png<>uid://dhumti4a5orw3::::res://scripts/fase2/DropZone.gd<>uid://ckapgn86tynnx::::res://scripts/hieroglyph.gd<>uid://bx8kd5vgg61qd::::res://assets/Segunda Fase/Hierografo 1.png<>uid://dkhddcakdj6m6::::res://assets/Segunda Fase/Hierografo 2.png<>uid://ckpid3gldf2s6::::res://assets/Segunda Fase/hierografo 3.png
-quadro.tscn::PackedScene::4266076550793506497::1761479143::0::1::::<><><>0<>0<><>::uid://g024oc0wh82h::::res://scripts/fase2/quadro.gd
-sarco1.tscn::PackedScene::3758140456083447307::1761479143::0::1::::<><><>0<>0<><>::uid://g024oc0wh82h::::res://scripts/fase2/quadro.gd
-tela_transicao.tscn::PackedScene::7595030191100685545::1761479143::0::1::::<><><>0<>0<><>::uid://cnwlysite2ble::::res://scripts/scripts-botoes/tela_transicao.gd
-vitoria.tscn::PackedScene::7587634710742168339::1761479143::0::1::::<><><>0<>0<><>::uid://bw3kmgi33f5ct::::res://scripts/vitoria.gd
-::res://scripts/::1761479143
-global_vars.gd::GDScript::8217260616782007636::1761479143::0::1::::<>Node<><>0<>0<><>::
-hieroglyph.gd::GDScript::5475652008638397205::1761479143::0::1::::<>Sprite2D<><>0<>0<><>::
-map_boundaries.gd::GDScript::1368080952804250383::1761479143::0::1::::<>StaticBody2D<><>0<>0<><>::
-mission_ui.gd::GDScript::5866394875243362569::1761479143::0::1::::<>Control<><>0<>0<><>::
-pause_manager.gd::GDScript::7839443889875353639::1761479143::0::1::::<>Node<><>0<>0<><>::
-pause_menu.gd::GDScript::3084669520511183710::1761479143::0::1::::<>Control<><>0<>0<><>::
-vitoria.gd::GDScript::3989006749106387383::1761479143::0::1::::<>Control<><>0<>0<><>::
-::res://scripts/fase2/::1761479143
-DropZone.gd::GDScript::7692634510650905948::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-quadro.gd::GDScript::474434392089735257::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-::res://scripts/fase3/::1761479143
-sarco1.gd::GDScript::5541913980907948800::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-::res://scripts/mapas/::1761479143
-main_primeira_fase.gd::GDScript::7508899958888701970::1761479143::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/scripts-botoes/::1761479143
-botao_comecar.gd::GDScript::644743517386560320::1761479143::0::1::::<>TextureButton<><>0<>0<><>::
-botao_fechar.gd::GDScript::5380777471702717085::1761479143::0::1::::<>Button<><>0<>0<><>::
-botao_instrucoes.gd::GDScript::4508127037377988081::1761479143::0::1::::<>TextureButton<><>0<>0<><>::
-tela_transicao.gd::GDScript::5731424349892505846::1761479143::0::1::::<>Control<><>0<>0<><>::
-voltar-instrucoes.gd::GDScript::876576264992850493::1761479143::0::1::::<>TextureButton<><>0<>0<><>::
-::res://scripts/Scripts-jogador/::1761479143
-player.gd::GDScript::6335748975588913065::1761479143::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/Scripts-NPC/::1761479143
-comerciante_alimentos.gd::GDScript::7687559162298231478::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-comerciante_alimentos_dialogo.gd::GDScript::4437907894984110053::1761479143::0::1::::<>Control<><>0<>0<><>::
-escriba.gd::GDScript::4330298728555572171::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-escriba_dialogo.gd::GDScript::7026972870802963912::1761479143::0::1::::<>Control<><>0<>0<><>::
-joalheiro.gd::GDScript::1704453193103576770::1761479143::0::1::::<>Area2D<><>0<>0<><>::
-joalheiro_dialogo.gd::GDScript::5079471755449341377::1761479143::0::1::::<>Control<><>0<>0<><>::
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1761934891
+icon.svg::CompressedTexture2D/CompressedTexture2D::2509371177546095097::1758325328::1758751561::1::::<><><>0<>0<>e1e44cc5bb78078ab33c9cf7f43b63d7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1761763786
+::res://assets/comerciante_alimentos/::1758933128
+cenaAlimentos.png::CompressedTexture2D/CompressedTexture2D::1129894792744853463::1758933031::1758933128::1::::<><><>0<>0<>f642bae8d649eaca9b9b09c107f0988b<>res://.godot/imported/cenaAlimentos.png-c2aee0bfb749256f0b535b603a69ffff.ctex::
+Comerciante de Alimentos.png::CompressedTexture2D/CompressedTexture2D::8694129136467365591::1758854289::1758844537::1::::<><><>0<>0<>9de1cbad8283803b9e900223ba9513b4<>res://.godot/imported/Comerciante de Alimentos.png-ea8d8fd3f42e3d8bb24e86de8d3c97ce.ctex::
+::res://assets/comerciante_joias/::1758933128
+cenaJoalheiro.png::CompressedTexture2D/CompressedTexture2D::6401025243814308003::1758933031::1758933128::1::::<><><>0<>0<>da363da4663fde76b4c07ef70a6e26eb<>res://.godot/imported/cenaJoalheiro.png-11df49c9b762ddea2df559e94155507d.ctex::
+joalheiro.png::CompressedTexture2D/CompressedTexture2D::130341154300947042::1758858073::1758858114::1::::<><><>0<>0<>56979ed5b1393227bba4b0f718e89316<>res://.godot/imported/joalheiro.png-fa669badafab3f33f610a219c4aa5d9e.ctex::
+::res://assets/escriba/::1758751563
+cenaEscriba.png::CompressedTexture2D/CompressedTexture2D::3435289433554625127::1758751549::1758751562::1::::<><><>0<>0<>e4d0992a40a58c0612450d474781975e<>res://.godot/imported/cenaEscriba.png-1e195a2f357f90c0a4f07d39348a50f3.ctex::
+escriba.png::CompressedTexture2D/CompressedTexture2D::5810013560760113390::1758325328::1758751563::1::::<><><>0<>0<>715519258baf4fcf1dc7e0628488bbf3<>res://.godot/imported/escriba.png-00521b91e74ad20814eb0afbc33424eb.ctex::
+::res://assets/Menu Inicial/::1761763786
+Botao_Comecar.png::CompressedTexture2D/CompressedTexture2D::8925871245259617161::1758325327::1758751561::1::::<><><>0<>0<>f2263098cf3063dd7741e2cdfde91a96<>res://.godot/imported/Botao_Comecar.png-643cce9b08fb3b570c175827c52964b9.ctex::
+Botao_Instrucoes.png::CompressedTexture2D/CompressedTexture2D::7152049802841950023::1758325327::1758751561::1::::<><><>0<>0<>9f9a9e363a92c97c1a24c2583dc47eaa<>res://.godot/imported/Botao_Instrucoes.png-b22a772a8d8431cc56992a02d1f7fbe2.ctex::
+Menu1.png::CompressedTexture2D/CompressedTexture2D::5562636265903490244::1758325328::1758751562::1::::<><><>0<>0<>a675444e917c16d69c20d6923f1ee02f<>res://.godot/imported/Menu1.png-6a26325d54aaa1daa00f5238bdce1199.ctex::
+tela instruções.png::CompressedTexture2D/CompressedTexture2D::2907857462701989805::1761763786::1758751562::1::::<><><>0<>0<>339c7280df861b80c7ee98d5e498c54a<>res://.godot/imported/tela instruções.png-8e409e73ae9ed0f86030bb7f3fca8461.ctex::
+::res://assets/Personagem Principal/::1758751565
+0-parado.png::CompressedTexture2D/CompressedTexture2D::4090384285173493598::1758325328::1758751562::1::::<><><>0<>0<>7aa1bd0c5d644a958f16569dfbce052a<>res://.godot/imported/0-parado.png-0f21ad54f9190e4363056da34d005c27.ctex::
+1- andando.png::CompressedTexture2D/CompressedTexture2D::6038730096332160591::1758325328::1758751563::1::::<><><>0<>0<>ed47a61810c8af1a36dcd552d630682e<>res://.godot/imported/1- andando.png-2fd05da7e29b825fd06f9de1a51ccbb0.ctex::
+2- andando.png::CompressedTexture2D/CompressedTexture2D::3594860403819221379::1758325328::1758751563::1::::<><><>0<>0<>54c5f92e3e3aab72c31eca7187e490e3<>res://.godot/imported/2- andando.png-e6f3ca5bcc480a12c0b693444d14f043.ctex::
+base.jpg::CompressedTexture2D/CompressedTexture2D::3920603100495685966::1758325328::1758751565::1::::<><><>0<>0<>4e361d7e035a808a74ee58e5e2024918<>res://.godot/imported/base.jpg-cad8f20af18756d44932a5b0dfd4fae5.ctex::
+::res://assets/Personagem Principal/pulo/::1758751563
+1- pulo.png::CompressedTexture2D/CompressedTexture2D::4015399991836870637::1758325328::1758751563::1::::<><><>0<>0<>ded8f0124e59c15b1308f29efbcaefbf<>res://.godot/imported/1- pulo.png-bffa98e8e14290e3f08ab7277fe20f25.ctex::
+2- pulo.png::CompressedTexture2D/CompressedTexture2D::6910040117785015611::1758325328::1758751562::1::::<><><>0<>0<>8daa89d6f8ffa3515daee9adc67ce41f<>res://.godot/imported/2- pulo.png-f752437cf279f11616175b3af6a4af70.ctex::
+3- pulo.png::CompressedTexture2D/CompressedTexture2D::615491172055299246::1758325328::1758751563::1::::<><><>0<>0<>72d61f0cd8b7dcc4c73558dece3fe4f6<>res://.godot/imported/3- pulo.png-12a199b40f527260120446beb4c44c9a.ctex::
+::res://assets/Primeira Fase Mapa/::1758844090
+Mapa4.png::CompressedTexture2D/CompressedTexture2D::8528097562678578231::1758844056::1758844090::1::::<><><>0<>0<>02c9473147b3b79434c629687baae865<>res://.godot/imported/Mapa4.png-b51b23884c9f0292f0ee4892dfa53c7a.ctex::
+::res://assets/Segunda Fase/::1761763852
+Fundo Puzzle testes.png::CompressedTexture2D/CompressedTexture2D::84726923701094844::1761763786::1761763852::1::::<><><>0<>0<>2b07ffe8dd6e35144fd4dbaaf5b21952<>res://.godot/imported/Fundo Puzzle testes.png-f170c0e21ee947f42779f7e730acc120.ctex::
+Fundo Puzzle.png::CompressedTexture2D/CompressedTexture2D::1429014172128240139::1761763786::1761763849::1::::<><><>0<>0<>61bc1d57207a72ef278a948e21877cd3<>res://.godot/imported/Fundo Puzzle.png-e4bd5ffdc8afa1bfc1fb15217f8ccaf8.ctex::
+h1.png::CompressedTexture2D/CompressedTexture2D::4030782100254761956::1761763786::1761763848::1::::<><><>0<>0<>003066c5281e097b6e6bb157984c6d02<>res://.godot/imported/h1.png-3f06f11038afc6eab4f2400274600097.ctex::
+h2.png::CompressedTexture2D/CompressedTexture2D::8657992918060141075::1761763786::1761763848::1::::<><><>0<>0<>6d17f3d0473f530d95c8bfa85db19fef<>res://.godot/imported/h2.png-cea7c64695c3f5516bdbd5d85de5f5f0.ctex::
+h3.png::CompressedTexture2D/CompressedTexture2D::404092483651963361::1761763786::1761763848::1::::<><><>0<>0<>c430e268446db54af5dd0a0cd854cb95<>res://.godot/imported/h3.png-bb67d25efd5559c44259bf7a5a042ba0.ctex::
+Hierografo 1.png::CompressedTexture2D/CompressedTexture2D::4069502688984474467::1761763786::1761763848::1::::<><><>0<>0<>4b2613026470a466db76acb9a9a89c9e<>res://.godot/imported/Hierografo 1.png-b22f36d95dccf0dc1f25f38f98971b2a.ctex::
+Hierografo 2.png::CompressedTexture2D/CompressedTexture2D::7875788745603513067::1761763786::1761763848::1::::<><><>0<>0<>19ee5cac5786e0f3fcbae208536039b6<>res://.godot/imported/Hierografo 2.png-a5751870e8fec18e88ac7ce08739587c.ctex::
+hierografo 3.png::CompressedTexture2D/CompressedTexture2D::5506188043827926567::1761763786::1761763848::1::::<><><>0<>0<>15fe4a0aec512095a5ef9787d7562e5a<>res://.godot/imported/hierografo 3.png-07b48b5c6f7d25288b02dfdb1e58f3e6.ctex::
+mapa.png::CompressedTexture2D/CompressedTexture2D::1640503197567758361::1761763786::1761763849::1::::<><><>0<>0<>25cece2f2ba1a39b1a0815f01bd9de61<>res://.godot/imported/mapa.png-28cbece2903638f8529374ba737fb582.ctex::
+Mapa_Templo 2.png::CompressedTexture2D/CompressedTexture2D::6355337284271501184::1761763786::1761763851::1::::<><><>0<>0<>1bc9953e254e1ee2508410e2c6c8f25d<>res://.godot/imported/Mapa_Templo 2.png-63744132ee01ae7a85b6e843eb854e07.ctex::
+::res://assets/Terceira fase/::1761763849
+Mapa_Tumba_2.png::CompressedTexture2D/CompressedTexture2D::6996916304168212215::1761763786::1761763849::1::::<><><>0<>0<>e70efba94ba0e61197d384cfb6eb850e<>res://.godot/imported/Mapa_Tumba_2.png-ceb8bedf0cf5c9e0fa60b01345072ca8.ctex::
+Sarcofago 2.png::CompressedTexture2D/CompressedTexture2D::137993531309845869::1761763786::1761763849::1::::<><><>0<>0<>ed8aadaf8649b30b2d14339e8a34177b<>res://.godot/imported/Sarcofago 2.png-46d94f721e31c71fa7410469adc1a874.ctex::
+Sarcófago 1.png::CompressedTexture2D/CompressedTexture2D::8808738837561516258::1761763786::1761763849::1::::<><><>0<>0<>54b77f5f32e4b38366740f8777391f76<>res://.godot/imported/Sarcófago 1.png-10a6eb8c74fa0956a574dbc923815f28.ctex::
+::res://cenas/::1761764028
+certificado_vitoria.tscn::PackedScene::7111398907574029898::1761763786::0::1::::<><><>0<>0<><>::uid://c8k2x3m4n5p6q::::res://scripts/certificado_vitoria.gd
+comerciante_alimentos.tscn::PackedScene::2503869429714855360::1758938187::0::1::::<><><>0<>0<><>::uid://dhr58gsad6tfy::::res://scripts/Scripts-NPC/comerciante_alimentos.gd<>uid://dv4rbimp8qasd::::res://assets/comerciante_alimentos/Comerciante de Alimentos.png
+comerciante_alimentosDialogo.tscn::PackedScene::3052946617230159480::1761763786::0::1::::<><><>0<>0<><>::uid://b4h0xvajxrbjx::::res://scripts/Scripts-NPC/comerciante_alimentos_dialogo.gd<>uid://qdlg4xtoq0hf::::res://assets/comerciante_alimentos/cenaAlimentos.png
+escriba.tscn::PackedScene::5488918291374431393::1758858117::0::1::::<><><>0<>0<><>::uid://b2xvnf3fsv2lb::::res://scripts/Scripts-NPC/escriba.gd<>uid://co1ocsd3q2lms::::res://assets/escriba/escriba.png
+escribaDialogo.tscn::PackedScene::3882737334262203704::1758998820::0::1::::<><><>0<>0<><>::uid://c7d6hmko5aq8g::::res://scripts/Scripts-NPC/escriba_dialogo.gd<>uid://bo7cykvb48xn0::::res://assets/escriba/cenaEscriba.png
+instrucoes.tscn::PackedScene::8256591004908603263::1761763786::0::1::::<><><>0<>0<><>::uid://bhot8tvl48m5j::::res://assets/Menu Inicial/tela instruções.png<>uid://mqvc2728n8c4::::res://scripts/scripts-botoes/voltar-instrucoes.gd
+joalheiro.tscn::PackedScene::5520196206876590629::1758993176::0::1::::<><><>0<>0<><>::uid://yjwdh5rbjhx7::::res://scripts/Scripts-NPC/joalheiro.gd<>uid://b4ex16xrnqec::::res://assets/comerciante_joias/joalheiro.png
+joalheiroDialogo.tscn::PackedScene::7706264724987650134::1761763786::0::1::::<><><>0<>0<><>::uid://cemsfmj6xhsi8::::res://scripts/Scripts-NPC/joalheiro_dialogo.gd<>uid://cxgx7k38ci6bf::::res://assets/comerciante_joias/cenaJoalheiro.png
+main_primeira_fase.tscn::PackedScene::5770354081968035659::1761764027::0::1::::<><><>0<>0<><>::uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://de8mqq7u6dvbu::::res://scripts/mapas/main_primeira_fase.gd<>uid://ckg4xg03a3cwn::::res://cenas/escriba.tscn<>uid://dxmphmdfbveft::::res://cenas/map_boundaries.tscn<>uid://4cjrjxxn1lcq::::res://cenas/map_obstacles.tscn<>uid://bbw5mmomx30lw::::res://cenas/comerciante_alimentos.tscn<>uid://ckwa3bypinuh6::::res://cenas/joalheiro.tscn<>uid://b8k2x3m4n5p6q::::res://cenas/mission_ui.tscn<>uid://djxqq32qy2qrn::::res://scripts/pause_manager.gd
+main_segunda_fase.tscn::PackedScene::7729293144978343637::1761764027::0::1::::<><><>0<>0<><>::uid://xmw33je1ooib::::res://assets/Segunda Fase/mapa.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://b11rwmc1i612l::::res://cenas/quadro.tscn<>uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
+main_terceira_fase.tscn::PackedScene::7543580322338288070::1761764027::0::1::::<><><>0<>0<><>::uid://c6xmgo17243wd::::res://assets/Terceira fase/Mapa_Tumba_2.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn<>uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://dxrav21wqdbw1::::res://assets/Terceira fase/Sarcófago 1.png<>uid://btsqa3a0pqyil::::res://cenas/sarco1.tscn<>uid://b73y6xuuxxkf::::res://assets/Terceira fase/Sarcofago 2.png<>uid://ck7srpx23kiqq::::res://scripts/fase3/sarco1.gd<>uid://dofwndexe7wki::::res://scripts/fase3/sarcofago2.gd
+main_terceira_fase_simples.tscn::PackedScene::6361104197444089556::1761764028::0::1::::<><><>0<>0<><>::uid://c6xmgo17243wd::::res://assets/Terceira fase/Mapa_Tumba_2.png<>uid://jmfvdtv1qw7p::::res://cenas/player.tscn
+map_boundaries.tscn::PackedScene::8799301878395555173::1758858117::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd
+map_obstacles.tscn::PackedScene::2040182541746414784::1758858117::0::1::::<><><>0<>0<><>::uid://tqydf8r5t33p::::res://scripts/map_boundaries.gd<>uid://dtrcrye6uwoqp::::res://assets/Primeira Fase Mapa/Mapa4.png
+menu.tscn::PackedScene::5692532106750832294::1761764027::0::1::::<><><>0<>0<><>::uid://clit2ooeymif1::::res://assets/Menu Inicial/Menu1.png<>uid://d0f02bnngdgxl::::res://assets/Menu Inicial/Botao_Comecar.png<>uid://c85rhk6e5gnyt::::res://assets/Menu Inicial/Botao_Instrucoes.png<>uid://jgk3jitxh73a::::res://scripts/scripts-botoes/botao_comecar.gd<>uid://b5h1gt4u31js0::::res://scripts/scripts-botoes/botao_instrucoes.gd<>uid://ciwqvbmaeikdp::::res://scripts/scripts-botoes/botao_fechar.gd
+mission_ui.tscn::PackedScene::4724978223880928842::1761764027::0::1::::<><><>0<>0<><>::uid://cptywwqju04sj::::res://scripts/mission_ui.gd
+Missoes.tscn::PackedScene::8992789791937090890::1758993176::0::1::::<><><>0<>0<><>::
+pause_menu.tscn::PackedScene::291061835383370006::1758938989::0::1::::<><><>0<>0<><>::res://scripts/pause_menu.gd
+player.tscn::PackedScene::656813400337722279::1758998820::0::1::::<><><>0<>0<><>::uid://cwjc4ieadq0av::::res://scripts/Scripts-jogador/player.gd<>uid://bxhdb0gxptnj6::::res://assets/Personagem Principal/pulo/1- pulo.png<>uid://c5pjl67nxctvf::::res://assets/Personagem Principal/pulo/2- pulo.png<>uid://i1fbxoulawbe::::res://assets/Personagem Principal/pulo/3- pulo.png<>uid://byjobcqumdhoo::::res://assets/Personagem Principal/0-parado.png<>uid://csbhac2abe7od::::res://assets/Personagem Principal/1- andando.png<>uid://brhm3co1cq2yh::::res://assets/Personagem Principal/2- andando.png
+puzzle_quadro.tscn::PackedScene::4468608829950363690::1761764027::0::1::::<><><>0<>0<><>::uid://umhwi0yew1k6::::res://assets/Segunda Fase/Fundo Puzzle.png<>uid://dhumti4a5orw3::::res://scripts/fase2/DropZone.gd<>uid://ckapgn86tynnx::::res://scripts/hieroglyph.gd<>uid://bx8kd5vgg61qd::::res://assets/Segunda Fase/Hierografo 1.png<>uid://dkhddcakdj6m6::::res://assets/Segunda Fase/Hierografo 2.png<>uid://ckpid3gldf2s6::::res://assets/Segunda Fase/hierografo 3.png
+quadro.tscn::PackedScene::4266076550793506497::1761764027::0::1::::<><><>0<>0<><>::uid://g024oc0wh82h::::res://scripts/fase2/quadro.gd
+sarco1.tscn::PackedScene::3758140456083447307::1761764027::0::1::::<><><>0<>0<><>::uid://g024oc0wh82h::::res://scripts/fase2/quadro.gd
+sarcofago2.tscn::PackedScene::961740860340092573::1761763786::0::1::::<><><>0<>0<><>::uid://btsqa3a0pqyil::::res://scripts/fase3/sarcofago2.gd
+tela_transicao.tscn::PackedScene::7595030191100685545::1761764027::0::1::::<><><>0<>0<><>::uid://cnwlysite2ble::::res://scripts/scripts-botoes/tela_transicao.gd
+transicao_fase1_para_2.tscn::PackedScene::7111398907574029898::1761763786::0::1::::<><><>0<>0<><>::res://scripts/transicao_fase1_para_2.gd
+transicao_fase2_para_3.tscn::PackedScene::7268500487189080197::1761764028::0::1::::<><><>0<>0<><>::uid://e130uptg8aum::::res://scripts/transicao_fase2_para_3.gd
+vitoria.tscn::PackedScene::7587634710742168339::1761764028::0::1::::<><><>0<>0<><>::uid://bw3kmgi33f5ct::::res://scripts/vitoria.gd
+::res://scripts/::1761763786
+certificado_vitoria.gd::GDScript::3096142451922176605::1761763786::0::1::::<>Control<><>0<>0<><>::
+global_vars.gd::GDScript::8217260616782007636::1758935159::0::1::::<>Node<><>0<>0<><>::
+hieroglyph.gd::GDScript::5475652008638397205::1761763786::0::1::::<>Sprite2D<><>0<>0<><>::
+map_boundaries.gd::GDScript::1368080952804250383::1758844056::0::1::::<>StaticBody2D<><>0<>0<><>::
+mission_ui.gd::GDScript::5866394875243362569::1761763786::0::1::::<>Control<><>0<>0<><>::
+pause_manager.gd::GDScript::7839443889875353639::1761763786::0::1::::<>Node<><>0<>0<><>::
+pause_menu.gd::GDScript::3084669520511183710::1758938989::0::1::::<>Control<><>0<>0<><>::
+transicao_fase1_para_2.gd::GDScript::4817460815717610704::1761763786::0::1::::<>Control<><>0<>0<><>::
+transicao_fase2_para_3.gd::GDScript::336174991314425020::1761763786::0::1::::<>Control<><>0<>0<><>::
+vitoria.gd::GDScript::3989006749106387383::1758939012::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/fase2/::1761763786
+DropZone.gd::GDScript::7692634510650905948::1761763786::0::1::::<>Area2D<><>0<>0<><>::
+quadro.gd::GDScript::474434392089735257::1761763786::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/fase3/::1761763786
+sarco1.gd::GDScript::5541913980907948800::1761763786::0::1::::<>Area2D<><>0<>0<><>::
+sarcofago2.gd::GDScript::8153586904744592980::1761763786::0::1::::<>Area2D<><>0<>0<><>::
+::res://scripts/mapas/::1758935159
+main_primeira_fase.gd::GDScript::7508899958888701970::1758935159::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/scripts-botoes/::1761763786
+botao_comecar.gd::GDScript::644743517386560320::1758995751::0::1::::<>TextureButton<><>0<>0<><>::
+botao_fechar.gd::GDScript::5380777471702717085::1761763786::0::1::::<>Button<><>0<>0<><>::
+botao_instrucoes.gd::GDScript::4508127037377988081::1758995751::0::1::::<>TextureButton<><>0<>0<><>::
+tela_transicao.gd::GDScript::5731424349892505846::1758995751::0::1::::<>Control<><>0<>0<><>::
+voltar-instrucoes.gd::GDScript::876576264992850493::1758325328::0::1::::<>TextureButton<><>0<>0<><>::
+::res://scripts/Scripts-jogador/::1761763786
+player.gd::GDScript::6335748975588913065::1761763786::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/Scripts-NPC/::1761763786
+comerciante_alimentos.gd::GDScript::7687559162298231478::1758935642::0::1::::<>Area2D<><>0<>0<><>::
+comerciante_alimentos_dialogo.gd::GDScript::4437907894984110053::1761763786::0::1::::<>Control<><>0<>0<><>::
+escriba.gd::GDScript::4330298728555572171::1758935159::0::1::::<>Area2D<><>0<>0<><>::
+escriba_dialogo.gd::GDScript::7026972870802963912::1758935159::0::1::::<>Control<><>0<>0<><>::
+joalheiro.gd::GDScript::1704453193103576770::1758935159::0::1::::<>Area2D<><>0<>0<><>::
+joalheiro_dialogo.gd::GDScript::5079471755449341377::1761763786::0::1::::<>Control<><>0<>0<><>::

@@ -26,7 +26,6 @@ position = Vector2(14, -14)
 layer = 10
 
 [node name="MissionUI" parent="UICanvas" instance=ExtResource("8_mission_ui")]
-grow_horizontal = 0
 
 [node name="PauseMenu" type="Control" parent="UICanvas"]
 visible = false

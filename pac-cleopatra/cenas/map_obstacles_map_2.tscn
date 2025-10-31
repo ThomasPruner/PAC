@@ -1,0 +1,120 @@
+[gd_scene load_steps=14 format=3 uid="uid://blqxkn8unv7l3"]
+
+[ext_resource type="Texture2D" uid="uid://xmw33je1ooib" path="res://assets/Segunda Fase/mapa.png" id="1_e2ntv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_45acr"]
+size = Vector2(219.5, 269)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rbo4h"]
+size = Vector2(185, 531)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tc3ia"]
+size = Vector2(431.5, 106)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ymmc3"]
+radius = 68.0
+height = 396.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qwbpl"]
+radius = 83.02409
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b81ti"]
+size = Vector2(47, 140)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4hkn8"]
+size = Vector2(203, 40.5)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lmy0q"]
+radius = 56.0
+height = 126.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ram1w"]
+radius = 48.04165
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7poch"]
+size = Vector2(38, 65)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i03ca"]
+radius = 75.026665
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_48f62"]
+radius = 56.0
+height = 128.0
+
+[node name="Map_Obstacles_2" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-1086.62, -356.5)
+scale = Vector2(1.89844, 1.57813)
+texture = ExtResource("1_e2ntv")
+offset = Vector2(1077, 992)
+
+[node name="lapide" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="lapide"]
+position = Vector2(1236.25, 1489.5)
+shape = SubResource("RectangleShape2D_45acr")
+
+[node name="Tumba" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tumba"]
+position = Vector2(1585.5, 1521.5)
+shape = SubResource("RectangleShape2D_rbo4h")
+
+[node name="esfinge" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="esfinge"]
+position = Vector2(456.25, 873)
+shape = SubResource("RectangleShape2D_tc3ia")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="esfinge"]
+position = Vector2(450, 793)
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_ymmc3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="esfinge"]
+position = Vector2(572, 689)
+shape = SubResource("CircleShape2D_qwbpl")
+
+[node name="cruz" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cruz"]
+position = Vector2(958.5, 542)
+shape = SubResource("RectangleShape2D_b81ti")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="cruz"]
+position = Vector2(958.5, 486.75)
+shape = SubResource("RectangleShape2D_4hkn8")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="cruz"]
+position = Vector2(957, 412)
+shape = SubResource("CapsuleShape2D_lmy0q")
+
+[node name="vasos_pequenos" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="vasos_pequenos"]
+position = Vector2(669, 1212)
+shape = SubResource("CircleShape2D_ram1w")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="vasos_pequenos"]
+position = Vector2(1228, 891)
+shape = SubResource("CircleShape2D_ram1w")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="vasos_pequenos"]
+position = Vector2(669, 1130.5)
+shape = SubResource("RectangleShape2D_7poch")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="vasos_pequenos"]
+position = Vector2(1231, 810)
+shape = SubResource("RectangleShape2D_7poch")
+
+[node name="vaso_grande" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="vaso_grande"]
+position = Vector2(1337, 1149)
+shape = SubResource("CircleShape2D_i03ca")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="vaso_grande"]
+position = Vector2(1336, 1089)
+shape = SubResource("CapsuleShape2D_48f62")
