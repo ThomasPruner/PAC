@@ -37,6 +37,8 @@ func show_interaction_label():
 	# Mostrar label para sarcófago 1 (errado)
 	if interacao_label is Label:
 		interacao_label.text = "Pressione 'E' para examinar"
+		$"../pedra".play()
+	
 	
 	interacao_label.visible = true
 	if interacao_label.has_method("show"):

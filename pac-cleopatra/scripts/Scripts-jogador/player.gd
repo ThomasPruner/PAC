@@ -98,7 +98,11 @@ func _physics_process(delta):
 	if input_dir != Vector2.ZERO:
 		velocity = input_dir.normalized() * speed
 		$AnimatedSprite2D.play("Walking")
-
+		
+		if !$andar.playing:
+			$andar.play()
+		
+		
 		if velocity.x < 0:
 			last_direction = -1
 		elif velocity.x > 0:
@@ -106,6 +110,7 @@ func _physics_process(delta):
 	else:
 		velocity = Vector2.ZERO
 		$AnimatedSprite2D.stop()
+		$andar.stop()
 
 	move_and_slide()
 

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgdrh82dqehm6"]
+[gd_scene load_steps=3 format=3 uid="uid://dgdrh82dqehm6"]
 
 [ext_resource type="Script" uid="uid://bw3kmgi33f5ct" path="res://scripts/vitoria.gd" id="1_vitoria"]
+[ext_resource type="AudioStream" uid="uid://cytrile1xhm7u" path="res://EfeitosSonoros/finish.mp3" id="2_cjyot"]
 
 [node name="Vitoria" type="Control"]
 layout_mode = 3
@@ -58,3 +59,6 @@ layout_mode = 2
 [node name="VoltarButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "🏠 Voltar ao Menu"
+
+[node name="Vitoria" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_cjyot")

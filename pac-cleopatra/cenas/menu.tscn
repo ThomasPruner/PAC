@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cndrf37th8e67"]
+[gd_scene load_steps=8 format=3 uid="uid://cndrf37th8e67"]
 
 [ext_resource type="Texture2D" uid="uid://clit2ooeymif1" path="res://assets/Menu Inicial/Menu1.png" id="1_64url"]
 [ext_resource type="Texture2D" uid="uid://d0f02bnngdgxl" path="res://assets/Menu Inicial/Botao_Comecar.png" id="2_hsu4v"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://jgk3jitxh73a" path="res://scripts/scripts-botoes/botao_comecar.gd" id="3_qvcyk"]
 [ext_resource type="Script" uid="uid://b5h1gt4u31js0" path="res://scripts/scripts-botoes/botao_instrucoes.gd" id="4_mmoso"]
 [ext_resource type="Script" uid="uid://ciwqvbmaeikdp" path="res://scripts/scripts-botoes/botao_fechar.gd" id="5_fechar"]
+[ext_resource type="AudioStream" uid="uid://b0cgfwee6bjb5" path="res://EfeitosSonoros/botao.mp3" id="7_qcnrj"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -60,6 +61,9 @@ offset_bottom = -10.0
 grow_vertical = 0
 text = "✕"
 script = ExtResource("5_fechar")
+
+[node name="Som_botão" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_qcnrj")
 
 [connection signal="pressed" from="TextureRect/botao-comecar" to="TextureRect/botao-comecar" method="_on_pressed"]
 [connection signal="pressed" from="TextureRect/botao-fechar" to="TextureRect/botao-fechar" method="_on_pressed"]

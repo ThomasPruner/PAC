@@ -6,4 +6,6 @@ func _ready() -> void:
 
 func _on_pressed() -> void:
 	# Troca de volta para a tela inicial
+	$"../../Som_botão".play()
+	await get_tree().create_timer(0.2).timeout
 	get_tree().change_scene_to_file("res://cenas/instrucoes.tscn")
