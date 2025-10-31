@@ -1,5 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://cndrf37th8e67"]
+[gd_scene load_steps=10 format=3 uid="uid://cndrf37th8e67"]
 
+[ext_resource type="Script" uid="uid://vswb3lakqwke" path="res://cenas/menu.gd" id="1_6l0hd"]
 [ext_resource type="Texture2D" uid="uid://clit2ooeymif1" path="res://assets/Menu Inicial/Menu1.png" id="1_64url"]
 [ext_resource type="Texture2D" uid="uid://d0f02bnngdgxl" path="res://assets/Menu Inicial/Botao_Comecar.png" id="2_hsu4v"]
 [ext_resource type="Texture2D" uid="uid://c85rhk6e5gnyt" path="res://assets/Menu Inicial/Botao_Instrucoes.png" id="3_mmoso"]
@@ -7,6 +8,7 @@
 [ext_resource type="Script" uid="uid://b5h1gt4u31js0" path="res://scripts/scripts-botoes/botao_instrucoes.gd" id="4_mmoso"]
 [ext_resource type="Script" uid="uid://ciwqvbmaeikdp" path="res://scripts/scripts-botoes/botao_fechar.gd" id="5_fechar"]
 [ext_resource type="AudioStream" uid="uid://b0cgfwee6bjb5" path="res://EfeitosSonoros/botao.mp3" id="7_qcnrj"]
+[ext_resource type="AudioStream" uid="uid://cvbc8vlw6lhy7" path="res://EfeitosSonoros/The Tomb of Cleopatra.mp3" id="9_s4mth"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -15,6 +17,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_6l0hd")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
@@ -64,6 +67,10 @@ script = ExtResource("5_fechar")
 
 [node name="Som_botão" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_qcnrj")
+
+[node name="Musica_inicio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_s4mth")
+autoplay = true
 
 [connection signal="pressed" from="TextureRect/botao-comecar" to="TextureRect/botao-comecar" method="_on_pressed"]
 [connection signal="pressed" from="TextureRect/botao-fechar" to="TextureRect/botao-fechar" method="_on_pressed"]

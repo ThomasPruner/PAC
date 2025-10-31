@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cvbc8vlw6lhy7"
+path="res://.godot/imported/The Tomb of Cleopatra.mp3-71d39f40ca750768b2d2e8f4d8d1ccc7.mp3str"
+
+[deps]
+
+source_file="res://EfeitosSonoros/The Tomb of Cleopatra.mp3"
+dest_files=["res://.godot/imported/The Tomb of Cleopatra.mp3-71d39f40ca750768b2d2e8f4d8d1ccc7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
