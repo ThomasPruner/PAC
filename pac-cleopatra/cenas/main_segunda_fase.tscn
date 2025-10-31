@@ -5,7 +5,8 @@
 [ext_resource type="AudioStream" uid="uid://dj8tovirb5nd1" path="res://EfeitosSonoros/andar.mp3" id="3_tgo0y"]
 [ext_resource type="PackedScene" uid="uid://b11rwmc1i612l" path="res://cenas/quadro.tscn" id="4_jy1qv"]
 [ext_resource type="Script" uid="uid://tqydf8r5t33p" path="res://scripts/map_boundaries.gd" id="4_w8n6r"]
-[ext_resource type="AudioStream" uid="uid://diqbtdbmn8b8f" path="res://EfeitosSonoros/som caverna.mp3" id="5_w8n6r"]
+[ext_resource type="PackedScene" uid="uid://blqxkn8unv7l3" path="res://cenas/map_obstacles_map_2.tscn" id="5_w8n6r"]
+[ext_resource type="AudioStream" uid="uid://diqbtdbmn8b8f" path="res://EfeitosSonoros/som caverna.mp3" id="6_tgo0y"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tgo0y"]
 size = Vector2(1950, 20)
@@ -59,8 +60,9 @@ script = ExtResource("4_w8n6r")
 position = Vector2(1852, 1234)
 shape = SubResource("RectangleShape2D_p0nj8")
 
+[node name="Map_Obstacles_2" parent="." instance=ExtResource("5_w8n6r")]
 [node name="Som_ambiente" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("5_w8n6r")
+stream = ExtResource("6_tgo0y")
 volume_db = -1.368
 pitch_scale = 2.0
 autoplay = true
