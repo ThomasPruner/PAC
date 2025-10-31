@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c8k2x3m4n5p6q"]
 
-[ext_resource type="Script" uid="uid://c8k2x3m4n5p6q" path="res://scripts/certificado_vitoria.gd" id="1_certificado"]
+[ext_resource type="Script" uid="uid://bkd2ap8u8g6vx" path="res://scripts/certificado_vitoria.gd" id="1_certificado"]
 
 [node name="CertificadoVitoria" type="Control"]
 layout_mode = 3
@@ -27,17 +27,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -500.0
-offset_top = -400.0
-offset_right = 500.0
-offset_bottom = 400.0
+offset_left = -397.0
+offset_top = -294.0
+offset_right = 397.0
+offset_bottom = 294.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Borda" type="NinePatchRect" parent="CertificadoContainer"]
 layout_mode = 2
 size_flags_vertical = 3
-color = Color(0.8, 0.6, 0.2, 1)
 
 [node name="Conteudo" type="VBoxContainer" parent="CertificadoContainer/Borda"]
 layout_mode = 1
@@ -94,3 +93,12 @@ text = "🏠 Voltar ao Menu"
 layout_mode = 2
 size_flags_horizontal = 3
 text = "🔄 Jogar Novamente"
+
+[node name="ResponderFormularioButton" type="Button" parent="CertificadoContainer/Borda/Conteudo/BotoesContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Responder Formulário"
+
+[connection signal="pressed" from="CertificadoContainer/Borda/Conteudo/BotoesContainer/VoltarMenuButton" to="." method="_on_voltar_menu_button_pressed"]
+[connection signal="pressed" from="CertificadoContainer/Borda/Conteudo/BotoesContainer/JogarNovamenteButton" to="." method="_on_jogar_novamente_button_pressed"]
+[connection signal="pressed" from="CertificadoContainer/Borda/Conteudo/BotoesContainer/ResponderFormularioButton" to="." method="_on_responder_formulario_button_pressed"]

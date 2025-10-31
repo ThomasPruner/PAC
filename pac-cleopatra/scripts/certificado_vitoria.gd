@@ -4,6 +4,7 @@ func _ready():
 	# Conectar os botões
 	$CertificadoContainer/Borda/Conteudo/BotoesContainer/VoltarMenuButton.pressed.connect(_on_voltar_menu_pressed)
 	$CertificadoContainer/Borda/Conteudo/BotoesContainer/JogarNovamenteButton.pressed.connect(_on_jogar_novamente_pressed)
+	$CertificadoContainer/Borda/Conteudo/BotoesContainer/ResponderFormularioButton.pressed.connect(_on_responder_formulario_pressed)
 	
 	# Efeito de entrada
 	modulate = Color.TRANSPARENT
@@ -27,6 +28,10 @@ func _on_jogar_novamente_pressed():
 	
 	# Voltar para a primeira fase
 	get_tree().change_scene_to_file("res://cenas/main_primeira_fase.tscn")
+
+func _on_responder_formulario_pressed():
+	print("Abrindo formulário de feedback...")
+	OS.shell_open("https://docs.google.com/forms/d/e/1FAIpQLSdlLP7tPX5N2Psh-MQ3-k7Myw02E-AUfQuAspH9xbPgxkY46A/viewform?usp=dialog")
 
 func _input(event):
 	# Permitir fechar com ESC
