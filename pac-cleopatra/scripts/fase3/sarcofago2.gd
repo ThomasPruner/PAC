@@ -36,6 +36,7 @@ func show_interaction_label():
 	# Mostrar label de interação para o sarcófago correto
 	if interacao_label is Label:
 		interacao_label.text = "Pressione 'E' para abrir o sarcófago!"
+		$"../pedra2".play()
 	
 	interacao_label.visible = true
 	if interacao_label.has_method("show"):
@@ -66,3 +67,4 @@ func _show_victory_certificate():
 	
 	# Mostrar certificado de vitória
 	get_tree().change_scene_to_file("res://cenas/certificado_vitoria.tscn")
+	

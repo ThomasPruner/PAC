@@ -1,7 +1,8 @@
 extends Control
-
+	
 func _ready():
 	print("Cena de vitória carregada com sucesso!")
+	$Vitoria.play()
 	
 	# Configurar botão para voltar ao menu
 	$VBoxContainer/VoltarButton.pressed.connect(_on_voltar_button_pressed)

@@ -1,13 +1,17 @@
-[gd_scene load_steps=11 format=3 uid="uid://dfqfwvv0fh8go"]
+[gd_scene load_steps=15 format=3 uid="uid://dfqfwvv0fh8go"]
 
 [ext_resource type="Texture2D" uid="uid://c6xmgo17243wd" path="res://assets/Terceira fase/Mapa_Tumba_2.png" id="1_q8vpg"]
 [ext_resource type="PackedScene" uid="uid://jmfvdtv1qw7p" path="res://cenas/player.tscn" id="2_xteox"]
 [ext_resource type="Script" uid="uid://tqydf8r5t33p" path="res://scripts/map_boundaries.gd" id="3_8rrb0"]
+[ext_resource type="AudioStream" uid="uid://dj8tovirb5nd1" path="res://EfeitosSonoros/andar.mp3" id="3_df62w"]
 [ext_resource type="Texture2D" uid="uid://dxrav21wqdbw1" path="res://assets/Terceira fase/Sarcófago 1.png" id="4_e6ru7"]
 [ext_resource type="PackedScene" uid="uid://btsqa3a0pqyil" path="res://cenas/sarco1.tscn" id="5_sarcofago2"]
 [ext_resource type="Texture2D" uid="uid://b73y6xuuxxkf" path="res://assets/Terceira fase/Sarcofago 2.png" id="6_hagbt"]
 [ext_resource type="Script" uid="uid://ck7srpx23kiqq" path="res://scripts/fase3/sarco1.gd" id="6_msom3"]
 [ext_resource type="Script" uid="uid://dofwndexe7wki" path="res://scripts/fase3/sarcofago2.gd" id="8_df62w"]
+[ext_resource type="AudioStream" uid="uid://1uyrubalkjo" path="res://EfeitosSonoros/stone-push-37412.mp3" id="8_wyakk"]
+[ext_resource type="AudioStream" uid="uid://b4k7823i1v38n" path="res://EfeitosSonoros/mapa3.mp3" id="10_1d8dg"]
+[ext_resource type="AudioStream" uid="uid://chd0e18kgbxof" path="res://EfeitosSonoros/stoneblockdragwoodgrind-82327.mp3" id="11_uyfox"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_67oq8"]
 size = Vector2(110, 1812.5)
@@ -24,6 +28,10 @@ texture = ExtResource("1_q8vpg")
 
 [node name="Player" parent="." instance=ExtResource("2_xteox")]
 position = Vector2(635, 358)
+
+[node name="andar" type="AudioStreamPlayer" parent="Player"]
+stream = ExtResource("3_df62w")
+pitch_scale = 0.85
 
 [node name="Area2D" type="StaticBody2D" parent="."]
 script = ExtResource("3_8rrb0")
@@ -64,6 +72,10 @@ texture = ExtResource("4_e6ru7")
 position = Vector2(43.5744, -48.0006)
 script = ExtResource("6_msom3")
 
+[node name="pedra" type="AudioStreamPlayer" parent="Sprite2D2"]
+stream = ExtResource("8_wyakk")
+volume_db = -5.474
+
 [node name="Sprite2D3" type="Sprite2D" parent="."]
 position = Vector2(1505.5, 1631)
 scale = Vector2(0.30957, 0.246094)
@@ -72,3 +84,14 @@ texture = ExtResource("6_hagbt")
 [node name="quadro" parent="Sprite2D3" instance=ExtResource("5_sarcofago2")]
 position = Vector2(-75.9117, -44.6984)
 script = ExtResource("8_df62w")
+
+[node name="pedra2" type="AudioStreamPlayer" parent="Sprite2D3"]
+stream = ExtResource("11_uyfox")
+volume_db = -5.474
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_1d8dg")
+volume_db = -1.216
+pitch_scale = 0.34
+autoplay = true
+parameters/looping = true

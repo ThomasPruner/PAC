@@ -38,6 +38,7 @@ func show_interaction_label():
 	if GlobalVars.acertouJoalheiro == false:
 		if interacao_label is Label:
 			interacao_label.text = "Pressione 'E' para interagir!"
+			$"../click".play()
 
 	# Mostra a label de várias formas
 	if GlobalVars.acertouJoalheiro == false:
